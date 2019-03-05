@@ -1,0 +1,45 @@
+{
+  "name": "TPShareKit",
+  "version": "0.1.0",
+  "summary": "TPShareKit is a shared component library.",
+  "description": "TPShareKit 是一个分享组件的库",
+  "homepage": "https://github.com/Topredator/TPShareKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Topredator": "luyanggold@163.com"
+  },
+  "source": {
+    "git": "https://github.com/Topredator/TPShareKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "static_framework": true,
+  "source_files": "TPShareKit/Classes/TPShareKit.h",
+  "subspecs": [
+    {
+      "name": "Base",
+      "source_files": "TPShareKit/Classes/Base/**/*"
+    },
+    {
+      "name": "ShareUI",
+      "source_files": "TPShareKit/Classes/ShareUI/**/*",
+      "dependencies": {
+        "TPShareKit/Base": [
+
+        ],
+        "Masonry": [
+          "~> 1.1.0"
+        ],
+        "pop": [
+
+        ]
+      },
+      "resources": "TPShareKit/Assets/**/*"
+    }
+  ]
+}

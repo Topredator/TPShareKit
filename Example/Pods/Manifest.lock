@@ -1,0 +1,32 @@
+PODS:
+  - Masonry (1.1.0)
+  - pop (1.0.12)
+  - TPShareKit (0.1.0):
+    - TPShareKit/Base (= 0.1.0)
+    - TPShareKit/ShareUI (= 0.1.0)
+  - TPShareKit/Base (0.1.0)
+  - TPShareKit/ShareUI (0.1.0):
+    - Masonry (~> 1.1.0)
+    - pop
+    - TPShareKit/Base
+
+DEPENDENCIES:
+  - TPShareKit (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Masonry
+    - pop
+
+EXTERNAL SOURCES:
+  TPShareKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
+  TPShareKit: cb61345cf17e3709aa7093f3fdb7031a3f2ec903
+
+PODFILE CHECKSUM: 19f0777709de26d0cc0518d1a7ab30f085db83cb
+
+COCOAPODS: 1.5.3

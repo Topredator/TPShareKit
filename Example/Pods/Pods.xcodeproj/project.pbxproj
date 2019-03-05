@@ -1,0 +1,1484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00444AA769306D4EB849E93DB9590956 /* POPAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CCEA48AF1EB778D133A11D1741FC433 /* POPAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02A736DDBBD2007FC672E678FB8F7B9B /* TPShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B26B52177494ED5EA577BD5CE147AD3 /* TPShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 41086FBAB2B52258477D03459BF2C34E /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		079DAEAB36E1C4CD95480D2E00616016 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E65C9D97C9117279E0CF549D3CE1C5 /* POPVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0836A570CAB8C9020F125074F3648CC3 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F5F0C4A5EDF62B721E83F79E44AC9DB /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = CF1B4EF272FB36BA007D2DF8F7790F63 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EAF86EC82193B7451159349800CC02F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ABDB2F19DC8E2D71AA0E518D5F205D4 /* View+MASAdditions.m */; };
+		1BC358764975AE1FDE4567EB31664150 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C3A3CC6254798541115F3A5798766CB /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1EC636562DE61D8D239D714568A5888D /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8A1B25C8A6E02803681E991720BF8173 /* TransformationMatrix.cpp */; };
+		1FFFF0C04DA72445C7FD070EF03A6290 /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DEB537C8A73326B9FE88926EF3A0D26 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 183D50F035E15A144CD1B030A9BCD9D9 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB606CDD426B38100CB0C52C0D8C687 /* POPGeometry.mm in Sources */ = {isa = PBXBuildFile; fileRef = EEADC6174E15E077C764E78D52387246 /* POPGeometry.mm */; };
+		2CEE2A97272FDDDAA779379593235A01 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = D67A36C86ADE5E68F1DC6324C3A61EAD /* POPMath.mm */; };
+		2E694E4BA0EC2D75B7E1D521F9DBBCE7 /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 308DC7BD8B93162B26AB2AE579AE5D6F /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33D8193D20605F2E40EF224BAAC71C6D /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3FCFD54461C1421CFEBF1D03F375FB49 /* POPDecayAnimation.mm */; };
+		372A4C466D6E011EE04B8E9D4C5D3DA6 /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 97E7E69A770DE299F1743F93FFB7634C /* POPAnimationRuntime.mm */; };
+		3775286E675ACFD4F8FC3D5FA3292D19 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 535C34F1804BC341C9B3DFF548D8136F /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3B291313F5C829198E586008873F0F5F /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 269625296B24C65F8B3FE3AA00B84FF6 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3BC839B2FEFD9ABFA88639C7B4711362 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		3D5845FB37AA5404FD9CE8B514D2E946 /* Pods-TPShareKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A01AC3C680309526AA0BB3878BD2E /* Pods-TPShareKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E0FA924134C9774564413C27F2FDC43 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = DAE601277C533F83FD5ED8AB2684EDA2 /* POPSpringAnimation.mm */; };
+		41A784126281B16C7F29A99A6BD592D2 /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0080AB2C3D5994575F7C8D3DE206DB /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41B2A51B3E4D5F80CFACA3F857FC7AA4 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 9FFCFE52325D2B9596221DC10D0E7374 /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46CC84071096E8C141764AE8183AF6E4 /* TPShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A847F424DEA15FEA6114BA2941C3C4A /* TPShareKit-dummy.m */; };
+		49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 724AE072C48E0CF5FC7ACAD9E392FC3D /* ViewController+MASAdditions.m */; };
+		4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C48E000ABCAB272F9016A523F3CB533 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFEF3618C41E786179E9F9395D75532 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = F429589C11C63B77C451A8CF8C3925E5 /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BA4C634B519E5059CAE8BC4555EC544 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F94EAC96E859A6D4B0FC3BB55D0A16C9 /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		54C52E1BED5E5FA0BB3408681122FF1F /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 8125B8D9DE0A8B02A9B4288B536A8245 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E46C0704EDD8C34FE90F67744BABD74 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E0B0BE4DC57899D51950E744CDED390 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 56B06357413AF3FAE29DCC468F5892D6 /* MASLayoutConstraint.m */; };
+		67EAF582488789848CEFAAB6D73849EE /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 238A9E186AF1D529EFB4AEB9755FFB82 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		685F7AD47DED50298D791E8974FB1D58 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 216755C76E8FB06B5F6AB5D4F1378759 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CCE98C7DFF413CA878ACC187DA1FD988 /* MASViewConstraint.m */; };
+		6AE7E95A0DFDDC84E2AC0F1F7EF09FC1 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = FDA80A6CE2F4B7BC77EE175E1062AC61 /* POPBasicAnimation.mm */; };
+		6C7380B9AB83EAD0410B692998D8C394 /* TPShareBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EA2269CA4B2467724CB8E7E8B659DD7 /* TPShareBaseModel.m */; };
+		719D7865AF0B22AB6AA5CB4893DFC242 /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 91FD3B430099E7D4713B5FEA77C74466 /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		72270B6F3EDCAE143EC5C4A26458251B /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E332F01801B58983ADFC388D6B13DCB /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		765CF8721C06EA56944A0890B256D8D4 /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = C1DA47CE72376C46E6E8E3CCC7E261B5 /* POPCGUtils.mm */; };
+		76779A03BBAB2267CAE08A931B07272F /* POPAnimatablePropertyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 612754DA657A310612FFD58AC31FF8A7 /* POPAnimatablePropertyTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B8B58B92909A3589A4208774B8A4300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
+		7E64F500200C635206605C9E98EDCAAD /* Pods-TPShareKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9B40FAE2BBE1C19BEDA57705E9D931 /* Pods-TPShareKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EF47F441C5C59BF9BACA8A7370C28E2 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = D025EEF919FAEB67BCE234F593379286 /* POPAnimationEvent.mm */; };
+		816DB8EE79B2D62EB0319BF5090C8641 /* TPShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E6B937C014BE9E54E98134892B3A7FF /* TPShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		86BFC82278053A8F8D684492D4FE5DAA /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E5D42D504A607D189656844DA21BC8 /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 90F9B3F29CF80BF4A2D1CE95A222D5AE /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD0E53C54A262E17B47CE5EBE22E1F4 /* Pods-TPShareKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F80FE9270976014654B8585E0434902 /* Pods-TPShareKit_Tests-dummy.m */; };
+		8D07DD4F4B5A37A13A55AE1445B0E6AB /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D0C30D36A7207AAB93B183E902580B2 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9092B9763347723C470BE299444B6A87 /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = 61F89A0F3FB143A684038055DBB5DAE4 /* POPAnimator.mm */; };
+		90AA1A56D59D7C4F88D523DE9DF92E56 /* TPShareEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AF65521A7C0CD98B4061FF142AEAC9F /* TPShareEnumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90AC3F78C05F4CA15812FC3FCCFBCF2D /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = A8B11A02F46A7685733C6C06A5376004 /* POPAnimation.mm */; };
+		98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1069D520BF6CBFC1E4EE7B62ABAA9845 /* MASConstraint.m */; };
+		9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 879AF0E1932ED0C92B76F674BC941332 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0D63779F60F80F70D4E3D2D50E2492 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F7932277F9443CBD3C6FF3C2A1FF2758 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FC8AA8DE7F5E80A95908685A08F849 /* MASConstraintMaker.m */; };
+		A6278CBEE86A134760D8533AD9407FFE /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CBAC97FF69D6960649847F170DC2BBAA /* pop-dummy.m */; };
+		A92E53934DBE38E3106D2A8B114F78D2 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3330C6246675BED2861B80DA6EED58E6 /* POPLayerExtras.mm */; };
+		A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F8D8CD9259F6C0C36B02C43C3FF2C2 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		ADA740C43152FD3BF4E281C21881CC83 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 912653C9A99D3A8302573A594CE39BB1 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B3E16FE67AD66928AA7654C1861E994B /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ABE2F4B5EDAE0715ED8BF6732D7C44B /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B6E0FDE35CF9581949ED5BC7782C329A /* TPShareBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AE3D9E6C6785BFC05847F1AAD40E25EE /* TPShareBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA3EAFAD9E0603919E91E66CCF18076D /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFAA15561DE5A3CCD7F38790C27C2625 /* POPVector.mm */; };
+		BEF20F2A8B1B50B84C5EF36D8EED1FC1 /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 98B309955015D9DE7A5D427A2A900641 /* POPPropertyAnimation.mm */; };
+		C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 702FE9DB93D9C0FDBE5ED6E1B93C1275 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C17B53FBBF71951BEA0DF38855AA9764 /* TPShareAction.h in Headers */ = {isa = PBXBuildFile; fileRef = DD2BEB0439053AE07BA4B2E0F261AF11 /* TPShareAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2376EC10D91CE661902835D5B6B7864 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D4FD897BBCA401745725B9F867F3B6D /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D761B2DDA5CAF303EB4A5EB4EAA30FAB /* MASCompositeConstraint.m */; };
+		C590CDCF4C966644D8711B153268984B /* TPShareAction.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1AFD9849B23D5C46934378A25E2C20 /* TPShareAction.m */; };
+		C638BDAE6E9A5318F414FB5D8C98FA01 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 858A53ECE3B42CC66BFD07BF74045AB3 /* POPAnimatableProperty.mm */; };
+		C7EEACCC1C8CA787D93A4CA181D1057C /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = D37F16DA88D43830BBD2054F95E3D8E2 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0686D1F0C4EBC35ECBF45B019BAE3219 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAB72B002D8C7556DE5D1100011D26E1 /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EC4B89C1484A5D914BE5F2FA4942C8B /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 212439094762303AC55C848F1E37DABB /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDB45C7E226F855CA68137B4F406202B /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 427378C42F6A4D84C1E717575E00281B /* POPAnimationTracer.mm */; };
+		D1876D5625F1CE01CDF20D04317D26CD /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = EB083AFA38B7774EC88A33E2CD43A4F2 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		D21448BDF06D81970A7689910618B505 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 54F5C1BF4498C36F52D16CCF4E56D113 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 82EA82CD0A1501B5418E1F70B5BE74C5 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D993F6123AD560F01A27E1BC96026996 /* Pods-TPShareKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B4E4295CBC30B559656384D23FF83 /* Pods-TPShareKit_Example-dummy.m */; };
+		DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D73AE3ABFFBEB067ADDDAFBDB5E13F74 /* Masonry-dummy.m */; };
+		DFB724F64DE6EFC23715924888878105 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = DE9BAD3DD0368233D1E407305CAC27A1 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E0318295CDC2833E1FA80B614AD74D67 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A6D1F1AFBA4A164B31E13111327B6A4 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E33C07DD32F2C528FB03369D4D6B9127 /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 096510CCD19D3F8BA0F0FF3D7F398845 /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4429704C74ADE8C64059458B4237D93 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 60AE81CE28941B9853878D0484BA0A80 /* POPAnimationExtras.mm */; };
+		E6F77F6C4E13CC746953574723F24D8D /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B99F2A4072ED920CAF41B552D8E0152 /* POPCustomAnimation.mm */; };
+		E89805266B35EF1450B1A8354D95B5AF /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D35738B8C507063F88137DD807D2137 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EB1FB7695AABD50D4DC33B5A831FEC83 /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BAE47C2985BE1897908C5EC2AFEB97C3 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 7215B3AB6FF17DB11CFAA48BE68DDE5A /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 701196E29C88603ED8AF81D824270874 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF23392FF8C93863799A3C708328429 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = BB8B3B858E8D184A688FE17BF7CB051B /* NSArray+MASAdditions.m */; };
+		F780EB8A2BC877FADE9170FBA2CBAF11 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		F98382F1ACE365C245673B381D80D0DF /* POPPropertyAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 4859DCA45E42A3E9F7299C1B833F2C93 /* POPPropertyAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2BB32B69691F03DD35510058C35591 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C751391EDD7942BB42450671089EF1 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D6C37CB7AFA9CC273377821F7F9292C /* MASViewAttribute.m */; };
+		FF0209EC73F0B719EF9B58DF09AED9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		FF1847907DE27A8962FA9A554B0A595B /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 366C9A9AA2F0805F4B8BE3F097C53118 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3492BDCB3751EBE84049E2C7A52DB933 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BAE1288C2E2503BB1251526FB641C5;
+			remoteInfo = pop;
+		};
+		AC8F56D3B1D91B20DDA3485FD8E95A43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27C05D117C4406FBF2B008DD4B864DC7;
+			remoteInfo = TPShareKit;
+		};
+		C5D94D2C84160BABF720E43AE103F265 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95BAE1288C2E2503BB1251526FB641C5;
+			remoteInfo = pop;
+		};
+		CBBA692596BF94A72593F8F72822B79F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7468B4F5259B98018DD1ABAD2D2593;
+			remoteInfo = Masonry;
+		};
+		D782715C31DAB11DFD1D701ED8BB2D3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAAC3CBD8C1ADB27885F0D2F7EBBBE43;
+			remoteInfo = "Pods-TPShareKit_Example";
+		};
+		E43777528424B86F97EB801A995BC033 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF7468B4F5259B98018DD1ABAD2D2593;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03A12B335274FFEC3FDEAF43BDCE47CB /* TPShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPShareKit.modulemap; sourceTree = "<group>"; };
+		0686D1F0C4EBC35ECBF45B019BAE3219 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		08C22738BA541E4760236020C5BDCF5C /* Pods_TPShareKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPShareKit_Example.framework; path = "Pods-TPShareKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		096510CCD19D3F8BA0F0FF3D7F398845 /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
+		0A0BFE07D0DCEFCFEA2C1CCE06C1B505 /* Pods-TPShareKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0D0C30D36A7207AAB93B183E902580B2 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
+		1069D520BF6CBFC1E4EE7B62ABAA9845 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		183D50F035E15A144CD1B030A9BCD9D9 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		1A6D1F1AFBA4A164B31E13111327B6A4 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		1A847F424DEA15FEA6114BA2941C3C4A /* TPShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPShareKit-dummy.m"; sourceTree = "<group>"; };
+		1A9DDFF235BA8842C861F53404AE6504 /* Pods-TPShareKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPShareKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1ABDB2F19DC8E2D71AA0E518D5F205D4 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		1DBB404326C80BCF42CB79C7D68C0634 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DEB537C8A73326B9FE88926EF3A0D26 /* POPCGUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCGUtils.h; path = pop/POPCGUtils.h; sourceTree = "<group>"; };
+		212439094762303AC55C848F1E37DABB /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		216755C76E8FB06B5F6AB5D4F1378759 /* POPAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAction.h; path = pop/POPAction.h; sourceTree = "<group>"; };
+		238A9E186AF1D529EFB4AEB9755FFB82 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
+		247B3DBEC106434379771629B4EE1CBB /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		25914471E3E930D1B9C6A3A204C4466C /* TPShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TPShareKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		26365CFB78D4DAFBAAA40407BD2DBC8D /* Pods_TPShareKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPShareKit_Tests.framework; path = "Pods-TPShareKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		269625296B24C65F8B3FE3AA00B84FF6 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
+		29F8D8CD9259F6C0C36B02C43C3FF2C2 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2ABE2F4B5EDAE0715ED8BF6732D7C44B /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
+		308DC7BD8B93162B26AB2AE579AE5D6F /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
+		3330C6246675BED2861B80DA6EED58E6 /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
+		366C9A9AA2F0805F4B8BE3F097C53118 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
+		3AE073B0B7173ABED1A98C1C7870E18F /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pop.modulemap; sourceTree = "<group>"; };
+		3E332F01801B58983ADFC388D6B13DCB /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
+		3EC4B89C1484A5D914BE5F2FA4942C8B /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
+		3FCFD54461C1421CFEBF1D03F375FB49 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
+		41086FBAB2B52258477D03459BF2C34E /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		427378C42F6A4D84C1E717575E00281B /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
+		441D62CF66B43637E7C9CB4D4C2C8E60 /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
+		4859DCA45E42A3E9F7299C1B833F2C93 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
+		4B99F2A4072ED920CAF41B552D8E0152 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
+		4CC1D166802E102CCC2530853A29B935 /* TPShareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPShareKit.xcconfig; sourceTree = "<group>"; };
+		4D35738B8C507063F88137DD807D2137 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
+		5095ADCB6D098D5585816FEBF010EDE2 /* Pods-TPShareKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPShareKit_Example.modulemap"; sourceTree = "<group>"; };
+		535C34F1804BC341C9B3DFF548D8136F /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
+		54869F02EF780CEA5B5F8D79A45B2F63 /* Pods-TPShareKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		54F5C1BF4498C36F52D16CCF4E56D113 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
+		56B06357413AF3FAE29DCC468F5892D6 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		5C48E000ABCAB272F9016A523F3CB533 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		60AE81CE28941B9853878D0484BA0A80 /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
+		612754DA657A310612FFD58AC31FF8A7 /* POPAnimatablePropertyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatablePropertyTypes.h; path = pop/POPAnimatablePropertyTypes.h; sourceTree = "<group>"; };
+		61F89A0F3FB143A684038055DBB5DAE4 /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
+		630B4E4295CBC30B559656384D23FF83 /* Pods-TPShareKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPShareKit_Example-dummy.m"; sourceTree = "<group>"; };
+		65A9899BF72D5BE24A5EA33CBFF1AF0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C751391EDD7942BB42450671089EF1 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
+		6B26B52177494ED5EA577BD5CE147AD3 /* TPShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPShareKit-umbrella.h"; sourceTree = "<group>"; };
+		6BA62AC391EB65947A164D3EE3FF0556 /* Pods-TPShareKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6D4FD897BBCA401745725B9F867F3B6D /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		701196E29C88603ED8AF81D824270874 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		702FE9DB93D9C0FDBE5ED6E1B93C1275 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		7215B3AB6FF17DB11CFAA48BE68DDE5A /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		724AE072C48E0CF5FC7ACAD9E392FC3D /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		7D6C37CB7AFA9CC273377821F7F9292C /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		8125B8D9DE0A8B02A9B4288B536A8245 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
+		82EA82CD0A1501B5418E1F70B5BE74C5 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		858A53ECE3B42CC66BFD07BF74045AB3 /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		85AC37F34F6C4C0861BBEF22F716CDFE /* Pods-TPShareKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPShareKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		869AA8118E6EF5EFF984713F8A410581 /* TPShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPShareKit.framework; path = TPShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		879AF0E1932ED0C92B76F674BC941332 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		87D11F0BC5212D936F9A46B314161DB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		8A1B25C8A6E02803681E991720BF8173 /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
+		8AF65521A7C0CD98B4061FF142AEAC9F /* TPShareEnumeration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareEnumeration.h; path = TPShareKit/Classes/Base/TPShareEnumeration.h; sourceTree = "<group>"; };
+		8E6B937C014BE9E54E98134892B3A7FF /* TPShareKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareKit.h; path = TPShareKit/Classes/TPShareKit.h; sourceTree = "<group>"; };
+		8EA2269CA4B2467724CB8E7E8B659DD7 /* TPShareBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareBaseModel.m; path = TPShareKit/Classes/Base/TPShareBaseModel.m; sourceTree = "<group>"; };
+		8F5F0C4A5EDF62B721E83F79E44AC9DB /* POPAnimationPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationPrivate.h; path = pop/POPAnimationPrivate.h; sourceTree = "<group>"; };
+		8F80FE9270976014654B8585E0434902 /* Pods-TPShareKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPShareKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		90F9B3F29CF80BF4A2D1CE95A222D5AE /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		912653C9A99D3A8302573A594CE39BB1 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
+		91FD3B430099E7D4713B5FEA77C74466 /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955E8D01D2D975EA5145BA998EDE652F /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9761B597E0682496D0457FB91E1CE536 /* Pods-TPShareKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		97E7E69A770DE299F1743F93FFB7634C /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		98B309955015D9DE7A5D427A2A900641 /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		9C3A3CC6254798541115F3A5798766CB /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		9CCEA48AF1EB778D133A11D1741FC433 /* POPAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimation.h; path = pop/POPAnimation.h; sourceTree = "<group>"; };
+		9DDE91C521E61497940D6D6BC6B6798D /* Pods-TPShareKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0B0BE4DC57899D51950E744CDED390 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		9E46C0704EDD8C34FE90F67744BABD74 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		9FFCFE52325D2B9596221DC10D0E7374 /* POPAnimatableProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatableProperty.h; path = pop/POPAnimatableProperty.h; sourceTree = "<group>"; };
+		A6E5D42D504A607D189656844DA21BC8 /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		A87730533213636C492FF420391A68DD /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
+		A8B11A02F46A7685733C6C06A5376004 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
+		AA3A01AC3C680309526AA0BB3878BD2E /* Pods-TPShareKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPShareKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		AE3D9E6C6785BFC05847F1AAD40E25EE /* TPShareBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareBaseModel.h; path = TPShareKit/Classes/Base/TPShareBaseModel.h; sourceTree = "<group>"; };
+		AFFC95470D316AC51958C54A7FA7DE08 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		B7E65C9D97C9117279E0CF549D3CE1C5 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
+		BAE47C2985BE1897908C5EC2AFEB97C3 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		BB8B3B858E8D184A688FE17BF7CB051B /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BF9B40FAE2BBE1C19BEDA57705E9D931 /* Pods-TPShareKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPShareKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		C1DA47CE72376C46E6E8E3CCC7E261B5 /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
+		C83EC7487B4275F15E141FF8F74FA0AA /* Pods-TPShareKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Example-resources.sh"; sourceTree = "<group>"; };
+		C9188DA27040CC9B8227452DA9EFCBDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAA4D07C0FD3E1F6DE9393D096A57DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAC97FF69D6960649847F170DC2BBAA /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
+		CC0080AB2C3D5994575F7C8D3DE206DB /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
+		CCE327B5AB8A92EB102EA6C8FDF2EF85 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		CCE98C7DFF413CA878ACC187DA1FD988 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		CEF23392FF8C93863799A3C708328429 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		CF1B4EF272FB36BA007D2DF8F7790F63 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		D025EEF919FAEB67BCE234F593379286 /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
+		D37F16DA88D43830BBD2054F95E3D8E2 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		D5D463E1B32859F4D4B161B31337DD3C /* TPShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPShareKit-prefix.pch"; sourceTree = "<group>"; };
+		D66D0A50635A237FEEDFE65D1F3536F3 /* Pods-TPShareKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPShareKit_Tests.modulemap"; sourceTree = "<group>"; };
+		D67A36C86ADE5E68F1DC6324C3A61EAD /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
+		D73AE3ABFFBEB067ADDDAFBDB5E13F74 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		D761B2DDA5CAF303EB4A5EB4EAA30FAB /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		DAE601277C533F83FD5ED8AB2684EDA2 /* POPSpringAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPSpringAnimation.mm; path = pop/POPSpringAnimation.mm; sourceTree = "<group>"; };
+		DD2BEB0439053AE07BA4B2E0F261AF11 /* TPShareAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareAction.h; path = TPShareKit/Classes/Base/TPShareAction.h; sourceTree = "<group>"; };
+		DE9BAD3DD0368233D1E407305CAC27A1 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		E3FC8AA8DE7F5E80A95908685A08F849 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		E4EAB901F9A7481377D6EA1499E5FBEB /* Pods-TPShareKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPShareKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EB083AFA38B7774EC88A33E2CD43A4F2 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		EC1AFD9849B23D5C46934378A25E2C20 /* TPShareAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareAction.m; path = TPShareKit/Classes/Base/TPShareAction.m; sourceTree = "<group>"; };
+		ED971C33119ACD6951D6AAC9F4C1DAC4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		EEADC6174E15E077C764E78D52387246 /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
+		EFAA15561DE5A3CCD7F38790C27C2625 /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
+		F429589C11C63B77C451A8CF8C3925E5 /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
+		F7658C9B6417151D18C11AC82798EC8D /* Pods-TPShareKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPShareKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7932277F9443CBD3C6FF3C2A1FF2758 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
+		F7DE0A9CD2029D7B4DA77B3E0C36651F /* Pods-TPShareKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		F7FAA4F50824EE7573677477649F7D15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F94EAC96E859A6D4B0FC3BB55D0A16C9 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		FDA80A6CE2F4B7BC77EE175E1062AC61 /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
+		FDA868BA166BAF6F020992C9A7702CE9 /* Pods-TPShareKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FAD95324177C5614ABE249A4DBD34CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F780EB8A2BC877FADE9170FBA2CBAF11 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3A7D6E70DA2F5E0F418BCB15090269FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BA4C634B519E5059CAE8BC4555EC544 /* Foundation.framework in Frameworks */,
+				7B8B58B92909A3589A4208774B8A4300 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C66082ED76A78571ACD6B2E3419CA38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC839B2FEFD9ABFA88639C7B4711362 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CC6337635D1B6A995D3E1CC762622C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EAF86EC82193B7451159349800CC02F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B407B83C850EB913E511E49124D6AD78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0209EC73F0B719EF9B58DF09AED9C3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		17596A062EE5C90E751F88E52D6C87BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B9E813D422086D0419FBF3A8247D8862 /* Masonry */,
+				D08CF301E92C6A5C2E6A3D82C772D58B /* pop */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		22EF6A45E8BEEC068518F1B2B7CEE08E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60DE3BDFE8AFD8D797014AFD17A6423B /* TPShareKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		48E1D9DB81BA7A06438331D22555CB9F /* Pods-TPShareKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				65A9899BF72D5BE24A5EA33CBFF1AF0E /* Info.plist */,
+				5095ADCB6D098D5585816FEBF010EDE2 /* Pods-TPShareKit_Example.modulemap */,
+				F7658C9B6417151D18C11AC82798EC8D /* Pods-TPShareKit_Example-acknowledgements.markdown */,
+				85AC37F34F6C4C0861BBEF22F716CDFE /* Pods-TPShareKit_Example-acknowledgements.plist */,
+				630B4E4295CBC30B559656384D23FF83 /* Pods-TPShareKit_Example-dummy.m */,
+				0A0BFE07D0DCEFCFEA2C1CCE06C1B505 /* Pods-TPShareKit_Example-frameworks.sh */,
+				C83EC7487B4275F15E141FF8F74FA0AA /* Pods-TPShareKit_Example-resources.sh */,
+				BF9B40FAE2BBE1C19BEDA57705E9D931 /* Pods-TPShareKit_Example-umbrella.h */,
+				9761B597E0682496D0457FB91E1CE536 /* Pods-TPShareKit_Example.debug.xcconfig */,
+				FDA868BA166BAF6F020992C9A7702CE9 /* Pods-TPShareKit_Example.release.xcconfig */,
+			);
+			name = "Pods-TPShareKit_Example";
+			path = "Target Support Files/Pods-TPShareKit_Example";
+			sourceTree = "<group>";
+		};
+		56A3423A79B262BF72E03AF63246C6D0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBAA4D07C0FD3E1F6DE9393D096A57DE /* Info.plist */,
+				3AE073B0B7173ABED1A98C1C7870E18F /* pop.modulemap */,
+				AFFC95470D316AC51958C54A7FA7DE08 /* pop.xcconfig */,
+				CBAC97FF69D6960649847F170DC2BBAA /* pop-dummy.m */,
+				441D62CF66B43637E7C9CB4D4C2C8E60 /* pop-prefix.pch */,
+				308DC7BD8B93162B26AB2AE579AE5D6F /* pop-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/pop";
+			sourceTree = "<group>";
+		};
+		60DE3BDFE8AFD8D797014AFD17A6423B /* TPShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				8E6B937C014BE9E54E98134892B3A7FF /* TPShareKit.h */,
+				7388EEBFF30E4A27049B20E72E2EB380 /* Base */,
+				86F2F6DF050DF4254EE884EC01583A11 /* Pod */,
+				850DA83D49312CD558116482372EFA18 /* Support Files */,
+			);
+			name = TPShareKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7388EEBFF30E4A27049B20E72E2EB380 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DD2BEB0439053AE07BA4B2E0F261AF11 /* TPShareAction.h */,
+				EC1AFD9849B23D5C46934378A25E2C20 /* TPShareAction.m */,
+				AE3D9E6C6785BFC05847F1AAD40E25EE /* TPShareBaseModel.h */,
+				8EA2269CA4B2467724CB8E7E8B659DD7 /* TPShareBaseModel.m */,
+				8AF65521A7C0CD98B4061FF142AEAC9F /* TPShareEnumeration.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				22EF6A45E8BEEC068518F1B2B7CEE08E /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				17596A062EE5C90E751F88E52D6C87BE /* Pods */,
+				9D8B57B96DC8D49CC4DA58E890F2326E /* Products */,
+				F63D76A243CD9B8FBDD5042FC3593B88 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		850DA83D49312CD558116482372EFA18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				03A12B335274FFEC3FDEAF43BDCE47CB /* TPShareKit.modulemap */,
+				4CC1D166802E102CCC2530853A29B935 /* TPShareKit.xcconfig */,
+				1A847F424DEA15FEA6114BA2941C3C4A /* TPShareKit-dummy.m */,
+				D5D463E1B32859F4D4B161B31337DD3C /* TPShareKit-prefix.pch */,
+				6B26B52177494ED5EA577BD5CE147AD3 /* TPShareKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPShareKit";
+			sourceTree = "<group>";
+		};
+		86F2F6DF050DF4254EE884EC01583A11 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				ED971C33119ACD6951D6AAC9F4C1DAC4 /* LICENSE */,
+				87D11F0BC5212D936F9A46B314161DB8 /* README.md */,
+				25914471E3E930D1B9C6A3A204C4466C /* TPShareKit.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9D8B57B96DC8D49CC4DA58E890F2326E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				955E8D01D2D975EA5145BA998EDE652F /* Masonry.framework */,
+				08C22738BA541E4760236020C5BDCF5C /* Pods_TPShareKit_Example.framework */,
+				26365CFB78D4DAFBAAA40407BD2DBC8D /* Pods_TPShareKit_Tests.framework */,
+				1DBB404326C80BCF42CB79C7D68C0634 /* pop.framework */,
+				869AA8118E6EF5EFF984713F8A410581 /* TPShareKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9E813D422086D0419FBF3A8247D8862 /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				9E46C0704EDD8C34FE90F67744BABD74 /* MASCompositeConstraint.h */,
+				D761B2DDA5CAF303EB4A5EB4EAA30FAB /* MASCompositeConstraint.m */,
+				41086FBAB2B52258477D03459BF2C34E /* MASConstraint.h */,
+				1069D520BF6CBFC1E4EE7B62ABAA9845 /* MASConstraint.m */,
+				7215B3AB6FF17DB11CFAA48BE68DDE5A /* MASConstraint+Private.h */,
+				82EA82CD0A1501B5418E1F70B5BE74C5 /* MASConstraintMaker.h */,
+				E3FC8AA8DE7F5E80A95908685A08F849 /* MASConstraintMaker.m */,
+				F94EAC96E859A6D4B0FC3BB55D0A16C9 /* MASLayoutConstraint.h */,
+				56B06357413AF3FAE29DCC468F5892D6 /* MASLayoutConstraint.m */,
+				9E0B0BE4DC57899D51950E744CDED390 /* Masonry.h */,
+				701196E29C88603ED8AF81D824270874 /* MASUtilities.h */,
+				212439094762303AC55C848F1E37DABB /* MASViewAttribute.h */,
+				7D6C37CB7AFA9CC273377821F7F9292C /* MASViewAttribute.m */,
+				183D50F035E15A144CD1B030A9BCD9D9 /* MASViewConstraint.h */,
+				CCE98C7DFF413CA878ACC187DA1FD988 /* MASViewConstraint.m */,
+				90F9B3F29CF80BF4A2D1CE95A222D5AE /* NSArray+MASAdditions.h */,
+				BB8B3B858E8D184A688FE17BF7CB051B /* NSArray+MASAdditions.m */,
+				879AF0E1932ED0C92B76F674BC941332 /* NSArray+MASShorthandAdditions.h */,
+				702FE9DB93D9C0FDBE5ED6E1B93C1275 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				29F8D8CD9259F6C0C36B02C43C3FF2C2 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				5C48E000ABCAB272F9016A523F3CB533 /* View+MASAdditions.h */,
+				1ABDB2F19DC8E2D71AA0E518D5F205D4 /* View+MASAdditions.m */,
+				CF1B4EF272FB36BA007D2DF8F7790F63 /* View+MASShorthandAdditions.h */,
+				0686D1F0C4EBC35ECBF45B019BAE3219 /* ViewController+MASAdditions.h */,
+				724AE072C48E0CF5FC7ACAD9E392FC3D /* ViewController+MASAdditions.m */,
+				D36D9AE284B9BA5E56F3C55E6462F70D /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		D02B953F0FBF3AA93EBB05062D479939 /* Pods-TPShareKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C9188DA27040CC9B8227452DA9EFCBDA /* Info.plist */,
+				D66D0A50635A237FEEDFE65D1F3536F3 /* Pods-TPShareKit_Tests.modulemap */,
+				1A9DDFF235BA8842C861F53404AE6504 /* Pods-TPShareKit_Tests-acknowledgements.markdown */,
+				E4EAB901F9A7481377D6EA1499E5FBEB /* Pods-TPShareKit_Tests-acknowledgements.plist */,
+				8F80FE9270976014654B8585E0434902 /* Pods-TPShareKit_Tests-dummy.m */,
+				6BA62AC391EB65947A164D3EE3FF0556 /* Pods-TPShareKit_Tests-frameworks.sh */,
+				F7DE0A9CD2029D7B4DA77B3E0C36651F /* Pods-TPShareKit_Tests-resources.sh */,
+				AA3A01AC3C680309526AA0BB3878BD2E /* Pods-TPShareKit_Tests-umbrella.h */,
+				9DDE91C521E61497940D6D6BC6B6798D /* Pods-TPShareKit_Tests.debug.xcconfig */,
+				54869F02EF780CEA5B5F8D79A45B2F63 /* Pods-TPShareKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-TPShareKit_Tests";
+			path = "Target Support Files/Pods-TPShareKit_Tests";
+			sourceTree = "<group>";
+		};
+		D08CF301E92C6A5C2E6A3D82C772D58B /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				0D0C30D36A7207AAB93B183E902580B2 /* FloatConversion.h */,
+				68C751391EDD7942BB42450671089EF1 /* POP.h */,
+				216755C76E8FB06B5F6AB5D4F1378759 /* POPAction.h */,
+				9FFCFE52325D2B9596221DC10D0E7374 /* POPAnimatableProperty.h */,
+				858A53ECE3B42CC66BFD07BF74045AB3 /* POPAnimatableProperty.mm */,
+				612754DA657A310612FFD58AC31FF8A7 /* POPAnimatablePropertyTypes.h */,
+				9CCEA48AF1EB778D133A11D1741FC433 /* POPAnimation.h */,
+				A8B11A02F46A7685733C6C06A5376004 /* POPAnimation.mm */,
+				F429589C11C63B77C451A8CF8C3925E5 /* POPAnimationEvent.h */,
+				D025EEF919FAEB67BCE234F593379286 /* POPAnimationEvent.mm */,
+				1A6D1F1AFBA4A164B31E13111327B6A4 /* POPAnimationEventInternal.h */,
+				366C9A9AA2F0805F4B8BE3F097C53118 /* POPAnimationExtras.h */,
+				60AE81CE28941B9853878D0484BA0A80 /* POPAnimationExtras.mm */,
+				269625296B24C65F8B3FE3AA00B84FF6 /* POPAnimationInternal.h */,
+				8F5F0C4A5EDF62B721E83F79E44AC9DB /* POPAnimationPrivate.h */,
+				4D35738B8C507063F88137DD807D2137 /* POPAnimationRuntime.h */,
+				97E7E69A770DE299F1743F93FFB7634C /* POPAnimationRuntime.mm */,
+				CC0080AB2C3D5994575F7C8D3DE206DB /* POPAnimationTracer.h */,
+				427378C42F6A4D84C1E717575E00281B /* POPAnimationTracer.mm */,
+				6D4FD897BBCA401745725B9F867F3B6D /* POPAnimationTracerInternal.h */,
+				54F5C1BF4498C36F52D16CCF4E56D113 /* POPAnimator.h */,
+				61F89A0F3FB143A684038055DBB5DAE4 /* POPAnimator.mm */,
+				DE9BAD3DD0368233D1E407305CAC27A1 /* POPAnimatorPrivate.h */,
+				096510CCD19D3F8BA0F0FF3D7F398845 /* POPBasicAnimation.h */,
+				FDA80A6CE2F4B7BC77EE175E1062AC61 /* POPBasicAnimation.mm */,
+				D37F16DA88D43830BBD2054F95E3D8E2 /* POPBasicAnimationInternal.h */,
+				1DEB537C8A73326B9FE88926EF3A0D26 /* POPCGUtils.h */,
+				C1DA47CE72376C46E6E8E3CCC7E261B5 /* POPCGUtils.mm */,
+				3EC4B89C1484A5D914BE5F2FA4942C8B /* POPCustomAnimation.h */,
+				4B99F2A4072ED920CAF41B552D8E0152 /* POPCustomAnimation.mm */,
+				8125B8D9DE0A8B02A9B4288B536A8245 /* POPDecayAnimation.h */,
+				3FCFD54461C1421CFEBF1D03F375FB49 /* POPDecayAnimation.mm */,
+				EB083AFA38B7774EC88A33E2CD43A4F2 /* POPDecayAnimationInternal.h */,
+				2ABE2F4B5EDAE0715ED8BF6732D7C44B /* POPDefines.h */,
+				A6E5D42D504A607D189656844DA21BC8 /* POPGeometry.h */,
+				EEADC6174E15E077C764E78D52387246 /* POPGeometry.mm */,
+				3E332F01801B58983ADFC388D6B13DCB /* POPLayerExtras.h */,
+				3330C6246675BED2861B80DA6EED58E6 /* POPLayerExtras.mm */,
+				238A9E186AF1D529EFB4AEB9755FFB82 /* POPMath.h */,
+				D67A36C86ADE5E68F1DC6324C3A61EAD /* POPMath.mm */,
+				4859DCA45E42A3E9F7299C1B833F2C93 /* POPPropertyAnimation.h */,
+				98B309955015D9DE7A5D427A2A900641 /* POPPropertyAnimation.mm */,
+				9C3A3CC6254798541115F3A5798766CB /* POPPropertyAnimationInternal.h */,
+				F7932277F9443CBD3C6FF3C2A1FF2758 /* POPSpringAnimation.h */,
+				DAE601277C533F83FD5ED8AB2684EDA2 /* POPSpringAnimation.mm */,
+				BAE47C2985BE1897908C5EC2AFEB97C3 /* POPSpringAnimationInternal.h */,
+				91FD3B430099E7D4713B5FEA77C74466 /* POPSpringSolver.h */,
+				B7E65C9D97C9117279E0CF549D3CE1C5 /* POPVector.h */,
+				EFAA15561DE5A3CCD7F38790C27C2625 /* POPVector.mm */,
+				8A1B25C8A6E02803681E991720BF8173 /* TransformationMatrix.cpp */,
+				912653C9A99D3A8302573A594CE39BB1 /* TransformationMatrix.h */,
+				535C34F1804BC341C9B3DFF548D8136F /* UnitBezier.h */,
+				56A3423A79B262BF72E03AF63246C6D0 /* Support Files */,
+			);
+			name = pop;
+			path = pop;
+			sourceTree = "<group>";
+		};
+		D36D9AE284B9BA5E56F3C55E6462F70D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7FAA4F50824EE7573677477649F7D15 /* Info.plist */,
+				A87730533213636C492FF420391A68DD /* Masonry.modulemap */,
+				247B3DBEC106434379771629B4EE1CBB /* Masonry.xcconfig */,
+				D73AE3ABFFBEB067ADDDAFBDB5E13F74 /* Masonry-dummy.m */,
+				CCE327B5AB8A92EB102EA6C8FDF2EF85 /* Masonry-prefix.pch */,
+				CEF23392FF8C93863799A3C708328429 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		F63D76A243CD9B8FBDD5042FC3593B88 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				48E1D9DB81BA7A06438331D22555CB9F /* Pods-TPShareKit_Example */,
+				D02B953F0FBF3AA93EBB05062D479939 /* Pods-TPShareKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3E5768BDD918E118A74EB17F0843C384 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D5845FB37AA5404FD9CE8B514D2E946 /* Pods-TPShareKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45F8EDB81B405B9AF3E3CCB4B59ABD97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */,
+				EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */,
+				03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */,
+				D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */,
+				50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */,
+				F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */,
+				61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */,
+				F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */,
+				CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */,
+				24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */,
+				892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */,
+				9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */,
+				C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				4A3DD37ABD9A5758C3BE31E8B1CF7B29 /* View+MASAdditions.h in Headers */,
+				0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */,
+				C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B3689F71E910BCA5F3A2A67A2265A4CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D07DD4F4B5A37A13A55AE1445B0E6AB /* FloatConversion.h in Headers */,
+				2E694E4BA0EC2D75B7E1D521F9DBBCE7 /* pop-umbrella.h in Headers */,
+				FA2BB32B69691F03DD35510058C35591 /* POP.h in Headers */,
+				685F7AD47DED50298D791E8974FB1D58 /* POPAction.h in Headers */,
+				41B2A51B3E4D5F80CFACA3F857FC7AA4 /* POPAnimatableProperty.h in Headers */,
+				76779A03BBAB2267CAE08A931B07272F /* POPAnimatablePropertyTypes.h in Headers */,
+				00444AA769306D4EB849E93DB9590956 /* POPAnimation.h in Headers */,
+				4AFEF3618C41E786179E9F9395D75532 /* POPAnimationEvent.h in Headers */,
+				E0318295CDC2833E1FA80B614AD74D67 /* POPAnimationEventInternal.h in Headers */,
+				FF1847907DE27A8962FA9A554B0A595B /* POPAnimationExtras.h in Headers */,
+				3B291313F5C829198E586008873F0F5F /* POPAnimationInternal.h in Headers */,
+				0836A570CAB8C9020F125074F3648CC3 /* POPAnimationPrivate.h in Headers */,
+				E89805266B35EF1450B1A8354D95B5AF /* POPAnimationRuntime.h in Headers */,
+				41A784126281B16C7F29A99A6BD592D2 /* POPAnimationTracer.h in Headers */,
+				C2376EC10D91CE661902835D5B6B7864 /* POPAnimationTracerInternal.h in Headers */,
+				D21448BDF06D81970A7689910618B505 /* POPAnimator.h in Headers */,
+				DFB724F64DE6EFC23715924888878105 /* POPAnimatorPrivate.h in Headers */,
+				E33C07DD32F2C528FB03369D4D6B9127 /* POPBasicAnimation.h in Headers */,
+				C7EEACCC1C8CA787D93A4CA181D1057C /* POPBasicAnimationInternal.h in Headers */,
+				1FFFF0C04DA72445C7FD070EF03A6290 /* POPCGUtils.h in Headers */,
+				CAB72B002D8C7556DE5D1100011D26E1 /* POPCustomAnimation.h in Headers */,
+				54C52E1BED5E5FA0BB3408681122FF1F /* POPDecayAnimation.h in Headers */,
+				D1876D5625F1CE01CDF20D04317D26CD /* POPDecayAnimationInternal.h in Headers */,
+				B3E16FE67AD66928AA7654C1861E994B /* POPDefines.h in Headers */,
+				86BFC82278053A8F8D684492D4FE5DAA /* POPGeometry.h in Headers */,
+				72270B6F3EDCAE143EC5C4A26458251B /* POPLayerExtras.h in Headers */,
+				67EAF582488789848CEFAAB6D73849EE /* POPMath.h in Headers */,
+				F98382F1ACE365C245673B381D80D0DF /* POPPropertyAnimation.h in Headers */,
+				1BC358764975AE1FDE4567EB31664150 /* POPPropertyAnimationInternal.h in Headers */,
+				9E0D63779F60F80F70D4E3D2D50E2492 /* POPSpringAnimation.h in Headers */,
+				EB1FB7695AABD50D4DC33B5A831FEC83 /* POPSpringAnimationInternal.h in Headers */,
+				719D7865AF0B22AB6AA5CB4893DFC242 /* POPSpringSolver.h in Headers */,
+				079DAEAB36E1C4CD95480D2E00616016 /* POPVector.h in Headers */,
+				ADA740C43152FD3BF4E281C21881CC83 /* TransformationMatrix.h in Headers */,
+				3775286E675ACFD4F8FC3D5FA3292D19 /* UnitBezier.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2A4C75DA4F320CBDF994A7F7E09B372 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C17B53FBBF71951BEA0DF38855AA9764 /* TPShareAction.h in Headers */,
+				B6E0FDE35CF9581949ED5BC7782C329A /* TPShareBaseModel.h in Headers */,
+				90AA1A56D59D7C4F88D523DE9DF92E56 /* TPShareEnumeration.h in Headers */,
+				02A736DDBBD2007FC672E678FB8F7B9B /* TPShareKit-umbrella.h in Headers */,
+				816DB8EE79B2D62EB0319BF5090C8641 /* TPShareKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBE69FAA0A91448B7E35D5A7D1BEAB3F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E64F500200C635206605C9E98EDCAAD /* Pods-TPShareKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		21DAFB4D67C88D2D3A829F2D630B4E3F /* Pods-TPShareKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E077C2391B1741FFC0C19BB5CCD759A /* Build configuration list for PBXNativeTarget "Pods-TPShareKit_Tests" */;
+			buildPhases = (
+				3E5768BDD918E118A74EB17F0843C384 /* Headers */,
+				7F8991DF1C11256FB46C4EA56B42B156 /* Sources */,
+				B407B83C850EB913E511E49124D6AD78 /* Frameworks */,
+				439015048E1968C5581B2E16FC4518B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0499512E37C88F56BED7CD95D6EF2297 /* PBXTargetDependency */,
+			);
+			name = "Pods-TPShareKit_Tests";
+			productName = "Pods-TPShareKit_Tests";
+			productReference = 26365CFB78D4DAFBAAA40407BD2DBC8D /* Pods_TPShareKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		27C05D117C4406FBF2B008DD4B864DC7 /* TPShareKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC8EB0749D1853C1C8FBD9F212336E2A /* Build configuration list for PBXNativeTarget "TPShareKit" */;
+			buildPhases = (
+				C2A4C75DA4F320CBDF994A7F7E09B372 /* Headers */,
+				76FEB2D22ADB3658EEDDD40C69ACB995 /* Sources */,
+				5C66082ED76A78571ACD6B2E3419CA38 /* Frameworks */,
+				0DCEB40B35D3384A385A0F0C26D4C6D5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				673234B4AD79A6FE874C851104EB6B17 /* PBXTargetDependency */,
+				A9748346AED0DE1172F3463EFA4829D7 /* PBXTargetDependency */,
+			);
+			name = TPShareKit;
+			productName = TPShareKit;
+			productReference = 869AA8118E6EF5EFF984713F8A410581 /* TPShareKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		95BAE1288C2E2503BB1251526FB641C5 /* pop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF8D6C0A752400500BB074A077119B66 /* Build configuration list for PBXNativeTarget "pop" */;
+			buildPhases = (
+				B3689F71E910BCA5F3A2A67A2265A4CB /* Headers */,
+				0EF693A556967C14646FB1C239C488BA /* Sources */,
+				0FAD95324177C5614ABE249A4DBD34CB /* Frameworks */,
+				5514C0F735DA5C15632AEEF4413F992E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pop;
+			productName = pop;
+			productReference = 1DBB404326C80BCF42CB79C7D68C0634 /* pop.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AAAC3CBD8C1ADB27885F0D2F7EBBBE43 /* Pods-TPShareKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D7D4DC5C827E1E6EDF903E41A33209F /* Build configuration list for PBXNativeTarget "Pods-TPShareKit_Example" */;
+			buildPhases = (
+				DBE69FAA0A91448B7E35D5A7D1BEAB3F /* Headers */,
+				92C3C98660A169B53CA3D2C8B198F2C2 /* Sources */,
+				76CC6337635D1B6A995D3E1CC762622C /* Frameworks */,
+				4D83DF100CC64E751F07EFF058E6C26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1ABCA6B0F32C7100DD43935A110B5488 /* PBXTargetDependency */,
+				11AB5E333857E00DBAB157579CA2B5DF /* PBXTargetDependency */,
+				05D4E82565A1713D4C0B2081BC44C12A /* PBXTargetDependency */,
+			);
+			name = "Pods-TPShareKit_Example";
+			productName = "Pods-TPShareKit_Example";
+			productReference = 08C22738BA541E4760236020C5BDCF5C /* Pods_TPShareKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84710AC86F03C1B2256418269E74EE40 /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				45F8EDB81B405B9AF3E3CCB4B59ABD97 /* Headers */,
+				79D0EB5C92240FE3B1FF78CA02696BF1 /* Sources */,
+				3A7D6E70DA2F5E0F418BCB15090269FF /* Frameworks */,
+				BAA9753AEC5C54F599FCE4798F7CD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = 955E8D01D2D975EA5145BA998EDE652F /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9D8B57B96DC8D49CC4DA58E890F2326E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */,
+				AAAC3CBD8C1ADB27885F0D2F7EBBBE43 /* Pods-TPShareKit_Example */,
+				21DAFB4D67C88D2D3A829F2D630B4E3F /* Pods-TPShareKit_Tests */,
+				95BAE1288C2E2503BB1251526FB641C5 /* pop */,
+				27C05D117C4406FBF2B008DD4B864DC7 /* TPShareKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0DCEB40B35D3384A385A0F0C26D4C6D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		439015048E1968C5581B2E16FC4518B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D83DF100CC64E751F07EFF058E6C26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5514C0F735DA5C15632AEEF4413F992E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAA9753AEC5C54F599FCE4798F7CD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0EF693A556967C14646FB1C239C488BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6278CBEE86A134760D8533AD9407FFE /* pop-dummy.m in Sources */,
+				C638BDAE6E9A5318F414FB5D8C98FA01 /* POPAnimatableProperty.mm in Sources */,
+				90AC3F78C05F4CA15812FC3FCCFBCF2D /* POPAnimation.mm in Sources */,
+				7EF47F441C5C59BF9BACA8A7370C28E2 /* POPAnimationEvent.mm in Sources */,
+				E4429704C74ADE8C64059458B4237D93 /* POPAnimationExtras.mm in Sources */,
+				372A4C466D6E011EE04B8E9D4C5D3DA6 /* POPAnimationRuntime.mm in Sources */,
+				CDB45C7E226F855CA68137B4F406202B /* POPAnimationTracer.mm in Sources */,
+				9092B9763347723C470BE299444B6A87 /* POPAnimator.mm in Sources */,
+				6AE7E95A0DFDDC84E2AC0F1F7EF09FC1 /* POPBasicAnimation.mm in Sources */,
+				765CF8721C06EA56944A0890B256D8D4 /* POPCGUtils.mm in Sources */,
+				E6F77F6C4E13CC746953574723F24D8D /* POPCustomAnimation.mm in Sources */,
+				33D8193D20605F2E40EF224BAAC71C6D /* POPDecayAnimation.mm in Sources */,
+				2CB606CDD426B38100CB0C52C0D8C687 /* POPGeometry.mm in Sources */,
+				A92E53934DBE38E3106D2A8B114F78D2 /* POPLayerExtras.mm in Sources */,
+				2CEE2A97272FDDDAA779379593235A01 /* POPMath.mm in Sources */,
+				BEF20F2A8B1B50B84C5EF36D8EED1FC1 /* POPPropertyAnimation.mm in Sources */,
+				3E0FA924134C9774564413C27F2FDC43 /* POPSpringAnimation.mm in Sources */,
+				BA3EAFAD9E0603919E91E66CCF18076D /* POPVector.mm in Sources */,
+				1EC636562DE61D8D239D714568A5888D /* TransformationMatrix.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76FEB2D22ADB3658EEDDD40C69ACB995 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C590CDCF4C966644D8711B153268984B /* TPShareAction.m in Sources */,
+				6C7380B9AB83EAD0410B692998D8C394 /* TPShareBaseModel.m in Sources */,
+				46CC84071096E8C141764AE8183AF6E4 /* TPShareKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79D0EB5C92240FE3B1FF78CA02696BF1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */,
+				98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */,
+				A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */,
+				65AD43F8BB7734430A4B11B134CFA4E0 /* MASLayoutConstraint.m in Sources */,
+				DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */,
+				FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */,
+				69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */,
+				F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */,
+				A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */,
+				49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F8991DF1C11256FB46C4EA56B42B156 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD0E53C54A262E17B47CE5EBE22E1F4 /* Pods-TPShareKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92C3C98660A169B53CA3D2C8B198F2C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D993F6123AD560F01A27E1BC96026996 /* Pods-TPShareKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0499512E37C88F56BED7CD95D6EF2297 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-TPShareKit_Example";
+			target = AAAC3CBD8C1ADB27885F0D2F7EBBBE43 /* Pods-TPShareKit_Example */;
+			targetProxy = D782715C31DAB11DFD1D701ED8BB2D3D /* PBXContainerItemProxy */;
+		};
+		05D4E82565A1713D4C0B2081BC44C12A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 95BAE1288C2E2503BB1251526FB641C5 /* pop */;
+			targetProxy = C5D94D2C84160BABF720E43AE103F265 /* PBXContainerItemProxy */;
+		};
+		11AB5E333857E00DBAB157579CA2B5DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TPShareKit;
+			target = 27C05D117C4406FBF2B008DD4B864DC7 /* TPShareKit */;
+			targetProxy = AC8F56D3B1D91B20DDA3485FD8E95A43 /* PBXContainerItemProxy */;
+		};
+		1ABCA6B0F32C7100DD43935A110B5488 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */;
+			targetProxy = CBBA692596BF94A72593F8F72822B79F /* PBXContainerItemProxy */;
+		};
+		673234B4AD79A6FE874C851104EB6B17 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = FF7468B4F5259B98018DD1ABAD2D2593 /* Masonry */;
+			targetProxy = E43777528424B86F97EB801A995BC033 /* PBXContainerItemProxy */;
+		};
+		A9748346AED0DE1172F3463EFA4829D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = pop;
+			target = 95BAE1288C2E2503BB1251526FB641C5 /* pop */;
+			targetProxy = 3492BDCB3751EBE84049E2C7A52DB933 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07A8CACD7FC632C2236C99D41B736CEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9761B597E0682496D0457FB91E1CE536 /* Pods-TPShareKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TPShareKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPShareKit_Example/Pods-TPShareKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		242C0F910A6081F5E83AA03A6E4F6124 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFC95470D316AC51958C54A7FA7DE08 /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247B3DBEC106434379771629B4EE1CBB /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7A40CCF935FBB89C80DFA98C7C00A7FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54869F02EF780CEA5B5F8D79A45B2F63 /* Pods-TPShareKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TPShareKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPShareKit_Tests/Pods-TPShareKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8D5FCAB318D2DEF06A4DE805AC091CBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DDE91C521E61497940D6D6BC6B6798D /* Pods-TPShareKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TPShareKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPShareKit_Tests/Pods-TPShareKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96434B6C8FF320C976A10DAD7174A4BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A0215BD67E0515CD72951DEDF00939A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC1D166802E102CCC2530853A29B935 /* TPShareKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPShareKit/TPShareKit-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TPShareKit/TPShareKit.modulemap";
+				PRODUCT_MODULE_NAME = TPShareKit;
+				PRODUCT_NAME = TPShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1248782A20D95F303BBFDA2E83CB421 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CC1D166802E102CCC2530853A29B935 /* TPShareKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TPShareKit/TPShareKit-prefix.pch";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/TPShareKit/TPShareKit.modulemap";
+				PRODUCT_MODULE_NAME = TPShareKit;
+				PRODUCT_NAME = TPShareKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D11C82AF2204B41B80412B8DC9C1D652 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D1FA108E24AD57D3392DCDDE4D69E8FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FDA868BA166BAF6F020992C9A7702CE9 /* Pods-TPShareKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-TPShareKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-TPShareKit_Example/Pods-TPShareKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DD53FB1BF6B9A967B4724365DC60F293 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247B3DBEC106434379771629B4EE1CBB /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F08EA618518050A31702FA9D71C58630 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFFC95470D316AC51958C54A7FA7DE08 /* pop.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/pop/pop-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/pop/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/pop/pop.modulemap";
+				PRODUCT_MODULE_NAME = pop;
+				PRODUCT_NAME = pop;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D11C82AF2204B41B80412B8DC9C1D652 /* Debug */,
+				96434B6C8FF320C976A10DAD7174A4BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D7D4DC5C827E1E6EDF903E41A33209F /* Build configuration list for PBXNativeTarget "Pods-TPShareKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07A8CACD7FC632C2236C99D41B736CEC /* Debug */,
+				D1FA108E24AD57D3392DCDDE4D69E8FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E077C2391B1741FFC0C19BB5CCD759A /* Build configuration list for PBXNativeTarget "Pods-TPShareKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D5FCAB318D2DEF06A4DE805AC091CBE /* Debug */,
+				7A40CCF935FBB89C80DFA98C7C00A7FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84710AC86F03C1B2256418269E74EE40 /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58DA1C6C94008EACB2CCE2CCDCA51A6C /* Debug */,
+				DD53FB1BF6B9A967B4724365DC60F293 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC8EB0749D1853C1C8FBD9F212336E2A /* Build configuration list for PBXNativeTarget "TPShareKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1248782A20D95F303BBFDA2E83CB421 /* Debug */,
+				A0215BD67E0515CD72951DEDF00939A6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF8D6C0A752400500BB074A077119B66 /* Build configuration list for PBXNativeTarget "pop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				242C0F910A6081F5E83AA03A6E4F6124 /* Debug */,
+				F08EA618518050A31702FA9D71C58630 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

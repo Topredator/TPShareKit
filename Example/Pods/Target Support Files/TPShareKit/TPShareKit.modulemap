@@ -1,0 +1,6 @@
+framework module TPShareKit {
+  umbrella header "TPShareKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

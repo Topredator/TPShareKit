@@ -12,3 +12,6 @@
 #import "TPSharePlatformModel.h"
 #import "TPSharePlatformProtocol.h"
 #import "TPShareEnumeration.h"
+
+
+#import "TPShareUIAPI.h"

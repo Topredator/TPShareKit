@@ -9,7 +9,6 @@
 #import "TPSharePlatformProtocol.h"
 #import "TPSharePlatformModel.h"
 #import "TPShareBaseModel.h"
-#import "TPShareCustomeActionProtocol.h"
 @interface TPShareManager : NSObject
 @property (nonatomic, weak) id <TPSharePlatformProtocol> platformDelegate;
 @property (nonatomic, copy) NSArray <TPSharePlatformModel *>*platforms;

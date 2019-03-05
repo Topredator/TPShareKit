@@ -5,16 +5,13 @@
 //  Created by Topredator on 2019/3/5.
 //
 
-#import "TPShareDefine.h"
+#import "TPShareUIAPI.h"
 #import "TPShareManager.h"
 #import "TPShareCustomeVC.h"
 #import "TPShareCustomeVC+ShareSDK.h"
 
-UIImage *TPShareImage(NSString *imageName) {
-    NSBundle *bundle = [NSBundle bundleForClass:[TPShareDefine class]];
-    return [UIImage imageNamed:imageName inBundle:bundle compatibleWithTraitCollection:nil];
-}
-@implementation TPShareDefine
+
+@implementation TPShareUIAPI
 + (void)showCustomeUI:(NSArray <__kindof TPShareBaseModel *>*)models delegate:(id <TPShareCustomeActionProtocol>)delegate {
     if (![TPShareManager shareInstance].platformDelegate) return;
     /// 模态的根视图

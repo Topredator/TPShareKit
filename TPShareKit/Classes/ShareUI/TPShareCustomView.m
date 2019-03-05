@@ -11,7 +11,7 @@
 #import <TPUIKit/TPSimButton.h>
 #import <pop/POP.h>
 #import <Masonry/Masonry.h>
-#import "TPShareDefine.h"
+#import "TPShareImageDefine.h"
 
 @interface TPShareCustomView ()
 @property (nonatomic, strong) UIView *titleView;

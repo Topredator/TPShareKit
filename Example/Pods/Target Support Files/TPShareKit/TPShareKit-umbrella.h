@@ -14,7 +14,6 @@
 #import "TPShareAPI.h"
 #import "TPShareAction.h"
 #import "TPShareBaseModel.h"
-#import "TPShareCustomeActionProtocol.h"
 #import "TPShareEnumeration.h"
 #import "TPShareManager+Platforms.h"
 #import "TPShareManager.h"
@@ -22,10 +21,12 @@
 #import "TPSharePlatformModel.h"
 #import "TPSharePlatformProtocol.h"
 #import "TPShareBaseModel+ConfigUI.h"
+#import "TPShareCustomeActionProtocol.h"
 #import "TPShareCustomeVC+ShareSDK.h"
 #import "TPShareCustomeVC.h"
 #import "TPShareCustomView.h"
-#import "TPShareDefine.h"
+#import "TPShareImageDefine.h"
+#import "TPShareUIAPI.h"
 
 FOUNDATION_EXPORT double TPShareKitVersionNumber;
 FOUNDATION_EXPORT const unsigned char TPShareKitVersionString[];

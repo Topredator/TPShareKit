@@ -1,6 +1,6 @@
 {
   "name": "TPShareKit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "TPShareKit is a shared component library.",
   "description": "TPShareKit 是一个分享组件的库",
   "homepage": "https://github.com/Topredator/TPShareKit",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Topredator/TPShareKit.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "8.0"

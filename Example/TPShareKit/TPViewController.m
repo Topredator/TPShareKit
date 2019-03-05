@@ -21,7 +21,7 @@
     [self.shareBtn addTarget:self action:@selector(shareAction:) forControlEvents:UIControlEventTouchUpInside];
 }
 - (void)shareAction:(id)sender {
-    [TPShareAPI TPShowCustomeUI:@[TPShareLinkModel(@"测试", @"https://www.baidu.com", @"你猜一下", [UIImage imageNamed:@"D11.jpg"], TPShareModelChannelQQ),
+    [TPShareUIAPI showCustomeUI:@[TPShareLinkModel(@"测试", @"https://www.baidu.com", @"你猜一下", [UIImage imageNamed:@"D11.jpg"], TPShareModelChannelQQ),
                                   TPShareLinkModel(@"测试", @"https://www.baidu.com", @"你猜一下", [UIImage imageNamed:@"D11.jpg"], TPShareModelChannelQQSpace),
                                   TPShareLinkModel(@"测试", @"https://www.baidu.com", @"你猜一下", [UIImage imageNamed:@"D11.jpg"], TPShareModelChannelWechat),
                                   TPShareLinkModel(@"测试", @"https://www.baidu.com", @"你猜一下", [UIImage imageNamed:@"D11.jpg"], TPShareModelChannelFriends),

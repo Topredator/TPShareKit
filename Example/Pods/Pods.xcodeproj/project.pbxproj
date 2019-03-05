@@ -7,41 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01BC0AACE8A884A47B05C8518494BC3B /* TPShareAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC57E44F24730B2B2DFC05C5E4C00F /* TPShareAction.m */; };
 		03E6C18745D7D3CFAD4F513DE97B954B /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = F4997E8E318E2B59A0A134EBD1156827 /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		04BC53AB666AE13242AE73FB71A7A283 /* TPShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C9FB4A938E91FC292CA762A9F2B9660 /* TPShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07F59FA618870B7685949626D46E9B1B /* TPShareManager+Platforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EEBB59FFDF945CD5145D03E7E596493 /* TPShareManager+Platforms.m */; };
+		0804A8FAC8BEAFE61C6CA60B44CE4D75 /* TPShareAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 80E994DF96E14925CA4F016993F7845D /* TPShareAPI.m */; };
 		0CB26840B2CD2CDB40F8A29A935233E3 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AB30E784D4782662CB71A4C7D99ABB5 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0D12F5A9D9669273ABDF31188005B9C4 /* POPAnimatorPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7BF2C576F25C3474EEE77649D15923 /* POPAnimatorPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		0E2A9300477748144C9F931CCC31E0F9 /* TPShareAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 40083A0680B928171D8637DAAFAF8C3C /* TPShareAPI.m */; };
-		0E671607ABCCE5C2D53C6B37F8D74AC9 /* TPShareCustomeVC+ShareSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = EDCC3CABEADEE497322BEB1F2AA149FD /* TPShareCustomeVC+ShareSDK.m */; };
 		0F79625ACAB02904A47BBAD3DE0FF51F /* TPToastImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D5BFAA4994B5EB0DCB754910552BCC86 /* TPToastImageView.m */; };
 		0F7E85F7AD519A7EE3FCB3367CC6C879 /* POPAnimationExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D2F1656EF97AE1950CF946C8AD7DBB7 /* POPAnimationExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1046B7E99E763A9478CEDEB621A21C5F /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FD8C5C3C2F53C25B7EE70F98F45E1F1 /* View+MASAdditions.m */; };
-		10DD2131AC903913DF9D39CA272E4494 /* TPShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 87631031B9C4A6FA535153844C9DB87D /* TPShareManager.m */; };
-		1504851531C0BFF5015E09624B3007B1 /* TPShareBaseModel+ConfigUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D931914E5C06B082B934189213EE9D5 /* TPShareBaseModel+ConfigUI.m */; };
+		12EEC1BBE723DC32A4B858830008FE5F /* TPShareManager+Platforms.h in Headers */ = {isa = PBXBuildFile; fileRef = 74161A2959922D9603666D0BE5573AC1 /* TPShareManager+Platforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18BC08F84BB456B228D649AFA8439C5B /* POPDecayAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = E95009554F1BE866CF3BE544DDDD80F6 /* POPDecayAnimation.mm */; };
 		1AC4AB5C15C0C3A0DC5591B40A19C6B8 /* POPAnimationExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 41B26ED110B1246C3D6F0FA882A51CAB /* POPAnimationExtras.mm */; };
-		1BD39F17BB6F30968107909988D20CB5 /* TPSharePlatformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8EA2E29A43003130A8DFE90D998F38 /* TPSharePlatformModel.m */; };
+		1AC5BF648FCA2FD766642127ECDD74C0 /* TPShareCustomeVC.h in Headers */ = {isa = PBXBuildFile; fileRef = 83AC112F13E7CB8F82B204CB726E8F92 /* TPShareCustomeVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1F97E397C3E1E701901D90FCCAFE7E35 /* POPBasicAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3B17B1D8C470DEE89F2D9ECA6FCD1F1B /* POPBasicAnimation.mm */; };
-		21FE13551893793A4219139332C34C70 /* TPShareCustomeActionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 12557D421DFBAC9C3DFE3C373F1ADBFB /* TPShareCustomeActionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2214D9EF048C093D94CEFDC849C2743E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F9B5AC64713FBB403790AA0776D21DF /* QuartzCore.framework */; };
-		2275F489A2FA86C61D2FAF54D73670BF /* TPSharePlatformDataProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E04C9FEAA52B411887491B59323265AA /* TPSharePlatformDataProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		24AA095821D4A1EE5818A0374DFCD08B /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AC766AD4E8DB5452C1D1B679DBE1AA3 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		254014DAF526F453ABDE997091C9CECE /* TPShareManager+Platforms.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A5888ABAA04131027B3C2D56733354 /* TPShareManager+Platforms.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		270E8981E1D1CFF5419F47B1141FD604 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */; };
 		293DCA84AA7D53818721D7D220D59AFA /* POPBasicAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = F6FB9F0839ABC3CDA3F742234557B75A /* POPBasicAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		298A8E3E8ECA9DF8402CC3ED20C0D2C5 /* TPShareCustomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF7C6036FF048473CE2F1C568C7CD166 /* TPShareCustomeVC.m */; };
 		2B2DA271791E40ED9D292B9E504A0E58 /* POPPropertyAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 1666B76D5D0ED1A5E4E54A2C4BFF152A /* POPPropertyAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2DF9BDD512C250AA99BD84286F079202 /* TPShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = EBF43CB18F9A666EB23525E1DC112FDF /* TPShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E5B8D422CCE931A4C93CF4FDB6646BB /* POPSpringAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 37592EC69DE8BFB9C8E1302F3591E2A8 /* POPSpringAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		31629267F367BA41666C9F2C38C08BA5 /* TPShareCustomeUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1B9FB4CEA3330A62554CA4AA0A448BF /* TPShareCustomeUI.xcassets */; };
+		31629267F367BA41666C9F2C38C08BA5 /* TPShareCustomeUI.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 175E7DCD462E310CADF8137C0823146E /* TPShareCustomeUI.xcassets */; };
+		3722A93EC4E249A358AC9A0C5661E8C4 /* TPSharePlatformModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F7CB16FF2C38B74ECF24C164A30FECE /* TPSharePlatformModel.m */; };
+		372F51B57368535623B0659EE5319C20 /* TPSharePlatformDataProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D15E4720BF4F6DE10A03A43390985CFE /* TPSharePlatformDataProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38F38000FF914EDB5361EE3484791BEC /* TPShareManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B0F8E1536EF64326660A2BBAEBB898E /* TPShareManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		39D2FDDE5CC6035DA55F45834DEF5457 /* pop-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 369C2C2228787BC9F428CCFA75DC5DAB /* pop-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3A6B15FB37F56A0FC672B84B0F340B9C /* POPAnimationRuntime.h in Headers */ = {isa = PBXBuildFile; fileRef = 6054D95CDDC97330A9BE92E597463F25 /* POPAnimationRuntime.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3AF2C969A1A8C64CF5A82A4F19F48C38 /* TPShareDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A054BD19EB81794BD43835D2EF183ED /* TPShareDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3C9DAA479B82F19716D109B6C150FD84 /* TPShareCustomeVC+ShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 6460F52200F11B6246EE24FC277E602A /* TPShareCustomeVC+ShareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3AB64DBA337CCCC34D1830B4A0C5AC1C /* TPShareCustomeVC+ShareSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC35FAE1A43684AE4ADD9FF28E20A1C /* TPShareCustomeVC+ShareSDK.m */; };
 		3CED695E1059FA43FEF3E28E725EDDC2 /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A1FAF334AE0BB15C5191186C68BD8AE /* POPVector.mm */; };
 		3D342774AF42BCDB2FD9ECFF39C4438F /* TPUIKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D4C57EF4D701F6528BC64F3994B49A /* TPUIKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3D5845FB37AA5404FD9CE8B514D2E946 /* Pods-TPShareKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA3A01AC3C680309526AA0BB3878BD2E /* Pods-TPShareKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3EA8101FC6D919BDFB3CB94035F4B00C /* TPShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACC2F3829115DFF8D7161AD753AF6AF /* TPShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F53BE6B4BA732D8834ECD8D1F1A1ACB /* TPUIKitDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 954CB6B0B8929D24E8A5ECC4663F7C48 /* TPUIKitDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		421DEBA067D5D4FDD76D371E8BCDAAC1 /* TPToast.h in Headers */ = {isa = PBXBuildFile; fileRef = C6F1A9422BC4C1091D3188D5A65FDC63 /* TPToast.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4320CCDA85612CD1192FDFA943216A06 /* TPShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F535BF1F5D4C418AD2CC09432E1D78E6 /* TPShareKit-dummy.m */; };
 		43FE3BB03D9084E84F52004A4563C0E4 /* POPAnimationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 744B83BD07D393FA1BC9420141C1150C /* POPAnimationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		460E218478177DC45485A480C4BBFA1A /* POPCGUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = FF94E5C2963C619DBA96E3730FD0A829 /* POPCGUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		49CD91D6F77E8E088F0A5C59EE86B53C /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A732961AD7E598F5CE766C7CEA0ACF8 /* ViewController+MASAdditions.m */; };
@@ -51,12 +51,10 @@
 		4BD3B1D588017EA43F3E98563319DC19 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = BC18F2FF5EAAA14BFDA0AB66DC176242 /* MBProgressHUD.m */; };
 		4F9863537BC7DA16B2F5D24FB8332853 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B99332D4FAE0DDA45928A4D43E0A5BC /* CoreGraphics.framework */; };
 		50FADD0D1A73B1AD065B54A6355CAA06 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D47F8EE1059D150A1517D2A44A780AD /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51A2A4A1E1611CFE5C3DC1AD5E69A626 /* TPShareManager+Platforms.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FA5993AF5104A7AF3C66B39C4CDF1E4 /* TPShareManager+Platforms.m */; };
 		51B00DD88E5560D0E65DAA4781212CB0 /* FloatConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = 05CB435B8FDCF0EAF04403E55F8EBD90 /* FloatConversion.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		51E0D6E1A16F04A1788BC3B1053FB823 /* TPToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 248B9CEDA78E423DA788E2C7DB1179EE /* TPToast.m */; };
 		53E4DD33ABC15D7953361806E2DDE516 /* POPGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F5EDDC1B90A33256BADFE5D0AB984BF /* POPGeometry.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		56F137781BB1126485F14DC3BF4302DC /* POPCustomAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = DBB505614D8868A6749BA1B7F9590A59 /* POPCustomAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		58C143CF9CE88DCE4B2A024062041ED4 /* TPShareAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 50797FF526FE4AE7AA28B1544781F264 /* TPShareAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		59F1F34EC8668D299B1A1BEA3AD51A98 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FEAEFFC084BD85B03E5862C885EB5B8 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A73225D95524A6D64F31D037762D328 /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = D74E31B4D5274067FF3D7F85AAEC398F /* POPSpringAnimation.mm */; };
 		5BE104B395F20621E772F36E0159C6A8 /* POPAnimationPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = D674F8B72EDE5322CE4C878FD3AA262A /* POPAnimationPrivate.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -64,8 +62,6 @@
 		5D4AE96A22232EA4073D63EF6F19397C /* Toast.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69E26B532B1CCA5F8110BC0188F2C3CE /* Toast.xcassets */; };
 		60E7DFBB5DF4F15E550FBBB066D2A7E5 /* TPUIKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B483370B2AD96239D2F702477B003342 /* TPUIKit-dummy.m */; };
 		61D6D891F5267AB65CD97EC2C0D4BA9C /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1264B9FF91B350A7F5E73B06BBBF9528 /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6241A8732878546794CD64F89F3DEE10 /* TPShareKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CE8AED57A8B4278CD989519E7C4E7C1 /* TPShareKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		62CFFFFE9B15175814F3083F97BB59A1 /* TPSharePlatformProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = B1BDCE6B9CD7AE0E20E7A9E2B75CC3E5 /* TPSharePlatformProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62D84D26A5A1D364AF1A867D4957684B /* POPAnimationRuntime.mm in Sources */ = {isa = PBXBuildFile; fileRef = 802425F12839EFB5002EBBBCADAC609C /* POPAnimationRuntime.mm */; };
 		64085F47D17AEC911AD72D21AC241679 /* POPAnimationEventInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 519161161632F54177361EB6AEC4B4A6 /* POPAnimationEventInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		64BC273A72B95842426055D27A59F98D /* TPSimButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 0382085F9132C7F85F2147A28A5515F6 /* TPSimButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -73,45 +69,48 @@
 		66B851FD2CB8E1BFDA2DFD41C574DA25 /* pop-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 07791ACDF63347DA461FC8037A33DE96 /* pop-dummy.m */; };
 		69E753A064765388C9FA44918F81E5A5 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 3225F7DFDFB9CAB548478A2DDEA7DFE3 /* MASViewConstraint.m */; };
 		6B7D26EBD90D5ACF72AB219DC4B71422 /* POPVector.h in Headers */ = {isa = PBXBuildFile; fileRef = 796F8CFEAEB0BD8AE6F4674E0C5EE457 /* POPVector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C735E57A3CCBA3E9786E06ACC3D81EB /* TPShareCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = CE37D6DE66B6F4B7BF0902F9A22F74A0 /* TPShareCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		71A490F580FAD8B30A4605894B891634 /* TPShareAction.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E11BB876C73D657F0907EEC44ED5FBA /* TPShareAction.m */; };
+		72173D215550F08765109A0474867894 /* TPShareManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F9A67EE659EBB39AE21DB331EFCFD68 /* TPShareManager.m */; };
 		730056553279E2944A0E40444F87D721 /* POPMath.mm in Sources */ = {isa = PBXBuildFile; fileRef = E098467C06DFB0FDCD0BAE515FA6433B /* POPMath.mm */; };
 		743CE53178B28464F77A33E85243462B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */; };
 		7580E241EFB46A12DA138362062D89BD /* POPAnimator.mm in Sources */ = {isa = PBXBuildFile; fileRef = C7E38FB863A765EA33F0012E34ED827D /* POPAnimator.mm */; };
 		7A168289FDCA2865B88F2F29A278A39B /* MBProgressHUD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F71F5B9A2155E95236A99117905BF435 /* MBProgressHUD.framework */; };
 		7B8B58B92909A3589A4208774B8A4300 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FE66FC9BF8B1EA71970C65C91EDF09F /* UIKit.framework */; };
-		7C1C716632EEA47492CFF629591C47C1 /* TPShareKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A66EF6DF6F3B3E34F3BFB5B2D6D8D0 /* TPShareKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D0F34C8ECD1E2CA9BF0484C6D973CAB /* TPShareAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4685742D4ADCBB276B45A719E31C802D /* TPShareAction.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7DE9555E2CE3709E9CAC767E5623BBDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */; };
-		80F65A2188B7190609012224B276228C /* TPShareBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 298CA67D3D9686F6B39FECFF6D572F6C /* TPShareBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		811FB605394AC4F63026170598F49BAA /* TPShareBaseModel+ConfigUI.h in Headers */ = {isa = PBXBuildFile; fileRef = D2E840EA11E2BC6744B3CB968C35D0F2 /* TPShareBaseModel+ConfigUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8217F011EB777E0DCE815CA102574B94 /* TPShareEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = FBF04BB74D8AAD94D1699ACAE5188A60 /* TPShareEnumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		833CE36E43DBC4445579EB9C285BEA88 /* POPAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF41EA63F631802288EC84C260D4BC1 /* POPAnimator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		836C871CD8FD717FF350F971362D2696 /* POP.h in Headers */ = {isa = PBXBuildFile; fileRef = 515DD2B41AC81511429FDB4EA208AAA3 /* POP.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		861A8523F72BFC2E41764FCD794B6363 /* TPShareCustomeVC.h in Headers */ = {isa = PBXBuildFile; fileRef = EA7524CE10BB61DE037D0A5F1F025C0B /* TPShareCustomeVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		892469602EA886064AC260E8CC7E6657 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 65738617E54F73DB8743E9BD20B405DB /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8AFF2C7A9DF8D37DECD36EE3BEA9ACCA /* POPCGUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0618999C926D0C17DBB4535C6F7FF1A /* POPCGUtils.mm */; };
-		8C743F27C00396D9A5AB16DC1838A212 /* TPShareAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 94456ED9D33D1C6C120CD1773B1AC55A /* TPShareAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8CD0E53C54A262E17B47CE5EBE22E1F4 /* Pods-TPShareKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F80FE9270976014654B8585E0434902 /* Pods-TPShareKit_Tests-dummy.m */; };
-		908EBF6A8743C4E09770B56B9BD3198F /* TPShareCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 06E36A8C53C86D3DB897423C7606B56F /* TPShareCustomView.m */; };
+		8E464EE210F53A672E14ABF9351C9206 /* TPShareBaseModel+ConfigUI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA2191DDF32E87B539F4919650851BAA /* TPShareBaseModel+ConfigUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91EF4F87EBD741017930A32B1A27AAE5 /* TPSharePlatformProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 405A3099591C483FCC6F447B15511F3C /* TPSharePlatformProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		935B0412FBC25BADE6F75287B1A435D5 /* POPDecayAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = E859B1749C4C3609B600ADD1664AE1F6 /* POPDecayAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		937C7AEFF24EC8D1F5EFA1302B007113 /* POPLayerExtras.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A29314F808A0DE6B038EA9EE4A0025 /* POPLayerExtras.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93AC56414C2B778954483F053AFACB25 /* POPAction.h in Headers */ = {isa = PBXBuildFile; fileRef = D8752F0F636818836C61B787F3DEDAC7 /* POPAction.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		946FC7F6E230EB724F86663824E2923A /* TPShareBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3073211363C3B86750366CA91D5B892B /* TPShareBaseModel.m */; };
+		95C0AB69DFEDF5C7F8F3107E78C08F0B /* TPShareImageDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = B29BD96D6BA2EB69F26E36230DBE198F /* TPShareImageDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		98655E9ABEE655AC980F3AB422088C38 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9782E68F2BD719F48127625B23524986 /* MASConstraint.m */; };
-		9C8FED27124F7476464A650EBE85D062 /* TPShareBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9CFA8BE59139A0D883CD26C2B39DA0 /* TPShareBaseModel.m */; };
+		9B3A2593AAFCE6775AE4B19C532AC8F5 /* TPShareAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = A90A31582B833E11800320872D8862B6 /* TPShareAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9DF1CD6D437EF1F3334EF52497102528 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 08F7817AE3B86AB240417452A774B25C /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0B5788C24A381A8B1347AF78BD83DEE /* POPAnimationTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 987D20605B0591FD62C48507BEBCCC10 /* POPAnimationTracer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0FDD2A6832EE4854731CDB45C4B5B9F /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 76A274E8EC5BC68421559E60B5848315 /* MASConstraintMaker.m */; };
-		A5C96F48C71D8629372E0D4B7D2FD847 /* TPSharePlatformModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 86A010A17AF3F78C7EB50C8588469E0C /* TPSharePlatformModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A7CB34A0D16E97C577AAB0DDC633D601 /* UnitBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 414B1E5B0B6440702FEE75BCEB650174 /* UnitBezier.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8906F6003D20F1B2E9C5BFEF7AE9C1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */; };
 		A9C9774D6BCA3A159F4DA9D9D0CD4196 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 01445342DF1557F302D581EC5BB3137A /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		AB4BBD3504DCC8A489D7C83B79E48953 /* POPMath.h in Headers */ = {isa = PBXBuildFile; fileRef = 56322FA500FDFF4C146AC4BA38D02150 /* POPMath.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ABE58B4D47C25EBA33471EF7BD904E6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */; };
+		AC93BA7C9154632E526361FA8649EED6 /* TPShareUIAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC731880A1E97C951FD9212CEAB6DFE /* TPShareUIAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AD70DF1C2C275FFD0D257BC0ADB76460 /* POPAnimatableProperty.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6B0F560A49738CCFF7EA8199F84F202E /* POPAnimatableProperty.mm */; };
-		AEF6E4DF6967EC2CD2E9F6A5A7F9E42A /* TPShareDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = 99A1096C78E449C2A7D820341AF080AF /* TPShareDefine.m */; };
+		AE1129C8F07D2997EC1D987B7FCDEDBB /* TPShareBaseModel+ConfigUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 898798B64F6680DFB8FEADC15D2EE639 /* TPShareBaseModel+ConfigUI.m */; };
+		AF954431DED84A2E5D832E6E7205FAED /* TPShareCustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2DFA7D80ECA59FE23C77D212B2514BF /* TPShareCustomView.m */; };
 		AF9CC401B48C6B499CFCFCE53E69D55C /* Pods-TPShareKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 630B4E4295CBC30B559656384D23FF83 /* Pods-TPShareKit_Example-dummy.m */; };
 		B26D4F5437B402B83B4D39E376BAD3E0 /* POPAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 619A628F072FA800968A324A66A282F1 /* POPAnimation.mm */; };
 		B2AB7C59D920DF4D9D44DA400FDBCB6A /* POPBasicAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1E6C60184B8D001F189083695E5A63 /* POPBasicAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B2E8CE8B0ED430AC4E100543D5EF7FE7 /* Pods-TPShareKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF9B40FAE2BBE1C19BEDA57705E9D931 /* Pods-TPShareKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BA19344F592D6BFFC04CB1065CEAD350 /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9194DFE0F17DA2749058391F61FB5E3E /* TransformationMatrix.cpp */; };
+		BACCEC18CC85DC2F5D86EFA359CD6668 /* TPShareCustomeVC+ShareSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = BE9A3BE990E06A447FD4DFC8DFE09B2E /* TPShareCustomeVC+ShareSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0E60F0CEF08F6B87CA7E77161017610 /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 290E66F21C019C865413A1303D1778E6 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C0FAAD2287C134DEF68625A4C6A4BD1C /* POPAnimatablePropertyTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = 89A11B8B03A98405BE93583CBD80791D /* POPAnimatablePropertyTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C2B0DA35772F9F6531314F99C5E2BBDD /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F32967A1C390F05FDF1FB30FE3E1AEF /* MASCompositeConstraint.m */; };
@@ -122,29 +121,32 @@
 		C7C830ED26F15C03D245522DB10E84B7 /* POPAnimationTracer.mm in Sources */ = {isa = PBXBuildFile; fileRef = BDA0BB58E0BFBDD34067BC23E0DEE372 /* POPAnimationTracer.mm */; };
 		C7F8E19DF007724D472F873813DC9EF8 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E20DA2ACB3B9217023EF0250F5741397 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C8D580D9C78AFB04AE06F9D27FB0F310 /* POPAnimationEvent.mm in Sources */ = {isa = PBXBuildFile; fileRef = 9D7E08F387E191FDD0B3F8656561021D /* POPAnimationEvent.mm */; };
-		C9C1F55EE120164D29EF910B9BCC9727 /* TPShareCustomView.h in Headers */ = {isa = PBXBuildFile; fileRef = 1CB917CD901B583CBD8E3A47D9BDD0F8 /* TPShareCustomView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9D3E99813D0CDB556A402287E7ABCA4 /* POPLayerExtras.mm in Sources */ = {isa = PBXBuildFile; fileRef = 761F40C3ECDBDE728257EF88384F0C9C /* POPLayerExtras.mm */; };
 		CAD12EC4165B2CC0B80A5E7168037F4B /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = FD61658649E8ED1E9E12080B3CF545A5 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3D84D964F608F251CE62358A95142EE /* POPSpringSolver.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B76F8C7CBEBF2BFD74D4AA5E3715EBE /* POPSpringSolver.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D500AF8452424C5C74BEB6C38555B13B /* POPDecayAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 31E4CBDD277D8B9E213AB2828C282544 /* POPDecayAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D5221D4FEB2E5D12AAE4294517262A92 /* TPShareCustomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 41E69286CA5F657E21F3A05A1C86224D /* TPShareCustomeVC.m */; };
+		D589A9958BD7B2CD2131F0E5A3F282AE /* TPSharePlatformModel.h in Headers */ = {isa = PBXBuildFile; fileRef = D2FE155056890DC8A0DEC0C4FB7A58E2 /* TPSharePlatformModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9561A7C99AD978BA82BEC10C9DFCE04 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4214A1191646257FEF3918B5592C8ED2 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D966EB561A0A6A10BAF414F0B952E95E /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C84D6DFBD50FF0FFA2A627FBADB7792 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DC3E308E249F0154C9B8CE6FF437AD3A /* POPPropertyAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1A43FDBE1046544948A1792B714587CF /* POPPropertyAnimation.mm */; };
 		DCBA94B9BD9E5DD47BAF0C901C85ABC4 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E92E2B3F02B61782B6609C15F02639 /* Masonry-dummy.m */; };
 		DDDBBBF5AC1A65FCAA33822D15269F36 /* TransformationMatrix.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE918471329B0F97004ED80A71DBC84 /* TransformationMatrix.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		DF652637E58BD48E0FF5D987C286F1F0 /* TPUIKitDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = E1B0366F4AF8756300CD56EA735F91BC /* TPUIKitDefine.m */; };
-		E93CBAE6A36932D0E2576ACF6BB550C8 /* TPShareKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DB3D603799728F028061C295FABBF14 /* TPShareKit-dummy.m */; };
+		EAEC2E9243D7EC9B04402CF501845B62 /* TPShareEnumeration.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA383ECA2DCA5A7C8AA5A0FE0921696 /* TPShareEnumeration.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC276D99797A5947F84D1AB0BDD5B215 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 9615FA8CC3898C1A90727720DC4FADB6 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC5E8C7C144B9360D58C94C2A743B000 /* POPAnimationInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = BD3B30832E40A5BF7B3E288FBDE376B5 /* POPAnimationInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		ECA9C9939B070525C87A792B57553AD5 /* POPSpringAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 853ED082E81F0D15E56EC8555D42B115 /* POPSpringAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ED3D7BC944D8DFC880577241BD087257 /* POPAnimationTracerInternal.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B425D5B25FA047152ABD727DF99DF7 /* POPAnimationTracerInternal.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		EEB4A455551D7B917E1AD4B0A1A964FF /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 286C080842C6AD84C38E15E83BA6F93F /* MBProgressHUD-dummy.m */; };
+		F10797C06F317B386BA437DC52749091 /* TPShareUIAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 6663FDA7064544747C9CC94DA7F6E1D0 /* TPShareUIAPI.m */; };
 		F19ECF8D411243862B377578A0244219 /* POPDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B07219ED9B3CEE644E2C091305077C /* POPDefines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1F7EA0A021AF4A11E1C1D221186B378 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BC0E5B20A04FAE8F24E6C6B3029CCFA /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3FA189EA591C10C9BAA243BC91CD6A9 /* TPShareImageDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = F880963348E5F476A2900E437E9B561C /* TPShareImageDefine.m */; };
 		F41AA0C6EB61176147E689BEAFCF3CE9 /* POPAnimatableProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = D873AF25584CF4F640D824330315C3BD /* POPAnimatableProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F53E3A2A1B6B94BF66E65E3A048C6769 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2279E3F331F49BCD57341318B77B7F0F /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6B29330FFD90FCDA5FBAEC90B7F0C9C /* TPShareBaseModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B0835A4C0E349B2FA4D271FA8B36130 /* TPShareBaseModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F70096947E7F91201BC9FACCF008FE9C /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 36825618297CAA2D789317AAF93ED402 /* NSArray+MASAdditions.m */; };
+		F84CB7ECAD34927B1C5D0DC1BFA991A1 /* TPShareCustomeActionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = ADED0C295490CB79DC81E59936F8B845 /* TPShareCustomeActionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FBF31B0538DF9C241051F009863903FE /* POPCustomAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C322946FB53137DBDB7FFF1F0C659 /* POPCustomAnimation.mm */; };
 		FCE43D464D18874613D40BCAF034A404 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = D45B453076EAA3E1293A096B3F4E8008 /* MASViewAttribute.m */; };
 		FF0209EC73F0B719EF9B58DF09AED9C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */; };
@@ -232,36 +234,35 @@
 
 /* Begin PBXFileReference section */
 		006FD68090EA184E992E86EE20DDA529 /* pop.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = pop.xcconfig; sourceTree = "<group>"; };
+		00A371B8ED4733A366C90F7A55B43A51 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		01445342DF1557F302D581EC5BB3137A /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
 		0184D94E17F4FDDFF3A2338DF01E5720 /* QQConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QQConnector.framework; path = ShareSDK/Support/PlatformConnector/QQConnector.framework; sourceTree = "<group>"; };
 		01BC8E38C5AE67ADB07D279584A60428 /* POPPropertyAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimation.h; path = pop/POPPropertyAnimation.h; sourceTree = "<group>"; };
 		0382085F9132C7F85F2147A28A5515F6 /* TPSimButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSimButton.h; path = TPUIKit/Classes/SimButton/TPSimButton.h; sourceTree = "<group>"; };
 		04C0EA92B9D9EEF1399B73AF45A1EDF4 /* WechatAuthSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WechatAuthSDK.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WechatAuthSDK.h; sourceTree = "<group>"; };
 		05CB435B8FDCF0EAF04403E55F8EBD90 /* FloatConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FloatConversion.h; path = pop/WebCore/FloatConversion.h; sourceTree = "<group>"; };
-		06E36A8C53C86D3DB897423C7606B56F /* TPShareCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareCustomView.m; path = TPShareKit/Classes/ShareUI/TPShareCustomView.m; sourceTree = "<group>"; };
 		07791ACDF63347DA461FC8037A33DE96 /* pop-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "pop-dummy.m"; sourceTree = "<group>"; };
 		084B95639E0706D4E123A3ACC194FCA5 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08567E24F0D8CBB3F9B37C99C1B80F7B /* TPUIKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPUIKit-prefix.pch"; sourceTree = "<group>"; };
 		08F7817AE3B86AB240417452A774B25C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		0A0BFE07D0DCEFCFEA2C1CCE06C1B505 /* Pods-TPShareKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		0B0835A4C0E349B2FA4D271FA8B36130 /* TPShareBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareBaseModel.h; path = TPShareKit/Classes/Base/TPShareBaseModel.h; sourceTree = "<group>"; };
 		0BB9750C426EB77E0480C0C606BF1B32 /* Pods_TPShareKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPShareKit_Example.framework; path = "Pods-TPShareKit_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C84D6DFBD50FF0FFA2A627FBADB7792 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		0CA1D35FAC6F02AD15640EA57E94795C /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Masonry.framework; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D7BF2C576F25C3474EEE77649D15923 /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatorPrivate.h; path = pop/POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		0DC35FAE1A43684AE4ADD9FF28E20A1C /* TPShareCustomeVC+ShareSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TPShareCustomeVC+ShareSDK.m"; path = "TPShareKit/Classes/ShareUI/TPShareCustomeVC+ShareSDK.m"; sourceTree = "<group>"; };
 		0EE918471329B0F97004ED80A71DBC84 /* TransformationMatrix.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TransformationMatrix.h; path = pop/WebCore/TransformationMatrix.h; sourceTree = "<group>"; };
-		0FA5993AF5104A7AF3C66B39C4CDF1E4 /* TPShareManager+Platforms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TPShareManager+Platforms.m"; path = "TPShareKit/Classes/Base/TPShareManager+Platforms.m"; sourceTree = "<group>"; };
 		121DAC6C0C0F7D210ED6080E1D99E6EF /* ShareSDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ShareSDK.bundle; path = ShareSDK/Support/Required/ShareSDK.bundle; sourceTree = "<group>"; };
-		12557D421DFBAC9C3DFE3C373F1ADBFB /* TPShareCustomeActionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareCustomeActionProtocol.h; path = TPShareKit/Classes/Base/TPShareCustomeActionProtocol.h; sourceTree = "<group>"; };
 		1264B9FF91B350A7F5E73B06BBBF9528 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		14BC7AE5E84F39581B002DBE443DDD64 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1666B76D5D0ED1A5E4E54A2C4BFF152A /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPPropertyAnimationInternal.h; path = pop/POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		175E7DCD462E310CADF8137C0823146E /* TPShareCustomeUI.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TPShareCustomeUI.xcassets; path = TPShareKit/Assets/TPShareCustomeUI.xcassets; sourceTree = "<group>"; };
 		1A1FAF334AE0BB15C5191186C68BD8AE /* POPVector.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPVector.mm; path = pop/POPVector.mm; sourceTree = "<group>"; };
 		1A43FDBE1046544948A1792B714587CF /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPPropertyAnimation.mm; path = pop/POPPropertyAnimation.mm; sourceTree = "<group>"; };
 		1A9DDFF235BA8842C861F53404AE6504 /* Pods-TPShareKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPShareKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		1B76F8C7CBEBF2BFD74D4AA5E3715EBE /* POPSpringSolver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringSolver.h; path = pop/POPSpringSolver.h; sourceTree = "<group>"; };
-		1B8EA2E29A43003130A8DFE90D998F38 /* TPSharePlatformModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPSharePlatformModel.m; path = TPShareKit/Classes/Base/TPSharePlatformModel.m; sourceTree = "<group>"; };
 		1BC0E5B20A04FAE8F24E6C6B3029CCFA /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
-		1CB917CD901B583CBD8E3A47D9BDD0F8 /* TPShareCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareCustomView.h; path = TPShareKit/Classes/ShareUI/TPShareCustomView.h; sourceTree = "<group>"; };
 		1F18CAA444458FDF77373E2E4AC5F5F2 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Masonry.modulemap; sourceTree = "<group>"; };
 		1FEAEFFC084BD85B03E5862C885EB5B8 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		2279E3F331F49BCD57341318B77B7F0F /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
@@ -269,41 +270,36 @@
 		2640E4FE07A82354B56E77028C7F2C69 /* ShareSDKExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKExtension.framework; path = ShareSDK/Support/Optional/ShareSDKExtension.framework; sourceTree = "<group>"; };
 		286C080842C6AD84C38E15E83BA6F93F /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		290E66F21C019C865413A1303D1778E6 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		298CA67D3D9686F6B39FECFF6D572F6C /* TPShareBaseModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareBaseModel.h; path = TPShareKit/Classes/Base/TPShareBaseModel.h; sourceTree = "<group>"; };
 		2B99332D4FAE0DDA45928A4D43E0A5BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		2DAFA25AEECA45F5206FA331F1EC040C /* ShareSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDK.framework; path = ShareSDK/ShareSDK.framework; sourceTree = "<group>"; };
+		3069644B796618DF0F74BCC8D8117E87 /* TPShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPShareKit-prefix.pch"; sourceTree = "<group>"; };
+		3073211363C3B86750366CA91D5B892B /* TPShareBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareBaseModel.m; path = TPShareKit/Classes/Base/TPShareBaseModel.m; sourceTree = "<group>"; };
 		31D439749F81E9122AF415F7CD944B5E /* TPShareKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPShareKit.framework; path = TPShareKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E4CBDD277D8B9E213AB2828C282544 /* POPDecayAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimation.h; path = pop/POPDecayAnimation.h; sourceTree = "<group>"; };
 		3225F7DFDFB9CAB548478A2DDEA7DFE3 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		33F4B8C1A0FBE29700B3185FA703DE9F /* TPUIKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPUIKit.framework; path = TPUIKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		343EE107AB481D03B8E76C4806D72D62 /* TPShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPShareKit.modulemap; sourceTree = "<group>"; };
 		36825618297CAA2D789317AAF93ED402 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
 		369C2C2228787BC9F428CCFA75DC5DAB /* pop-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-umbrella.h"; sourceTree = "<group>"; };
 		37592EC69DE8BFB9C8E1302F3591E2A8 /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimationInternal.h; path = pop/POPSpringAnimationInternal.h; sourceTree = "<group>"; };
 		37B07219ED9B3CEE644E2C091305077C /* POPDefines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDefines.h; path = pop/POPDefines.h; sourceTree = "<group>"; };
-		37E4309D2D48361D7CF4EF21AC3A9332 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		3A054BD19EB81794BD43835D2EF183ED /* TPShareDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareDefine.h; path = TPShareKit/Classes/ShareUI/TPShareDefine.h; sourceTree = "<group>"; };
 		3B17B1D8C470DEE89F2D9ECA6FCD1F1B /* POPBasicAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPBasicAnimation.mm; path = pop/POPBasicAnimation.mm; sourceTree = "<group>"; };
 		3D47F8EE1059D150A1517D2A44A780AD /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
-		3D931914E5C06B082B934189213EE9D5 /* TPShareBaseModel+ConfigUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TPShareBaseModel+ConfigUI.m"; path = "TPShareKit/Classes/ShareUI/TPShareBaseModel+ConfigUI.m"; sourceTree = "<group>"; };
 		3DB0EBF94C812E85B0D858617020A6A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		3F13A1EB21E5DFB907AE7F59D2037DEC /* WXApi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApi.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WXApi.h; sourceTree = "<group>"; };
 		3F9B5AC64713FBB403790AA0776D21DF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		3FF41EA63F631802288EC84C260D4BC1 /* POPAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimator.h; path = pop/POPAnimator.h; sourceTree = "<group>"; };
-		40083A0680B928171D8637DAAFAF8C3C /* TPShareAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPShareAPI.m; sourceTree = "<group>"; };
+		405A3099591C483FCC6F447B15511F3C /* TPSharePlatformProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSharePlatformProtocol.h; path = TPShareKit/Classes/Base/TPSharePlatformProtocol.h; sourceTree = "<group>"; };
 		414B1E5B0B6440702FEE75BCEB650174 /* UnitBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnitBezier.h; path = pop/WebCore/UnitBezier.h; sourceTree = "<group>"; };
 		41B26ED110B1246C3D6F0FA882A51CAB /* POPAnimationExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationExtras.mm; path = pop/POPAnimationExtras.mm; sourceTree = "<group>"; };
-		41E69286CA5F657E21F3A05A1C86224D /* TPShareCustomeVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareCustomeVC.m; path = TPShareKit/Classes/ShareUI/TPShareCustomeVC.m; sourceTree = "<group>"; };
 		4214A1191646257FEF3918B5592C8ED2 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		44E92E2B3F02B61782B6609C15F02639 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
-		4516BF968EEC79D32204F9242D469EE5 /* TPShareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPShareKit.xcconfig; sourceTree = "<group>"; };
+		4685742D4ADCBB276B45A719E31C802D /* TPShareAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareAction.h; path = TPShareKit/Classes/Base/TPShareAction.h; sourceTree = "<group>"; };
 		46A29314F808A0DE6B038EA9EE4A0025 /* POPLayerExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPLayerExtras.h; path = pop/POPLayerExtras.h; sourceTree = "<group>"; };
 		46D36ED8684E2714E7C74B6F314EA3F7 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
 		4A7C322946FB53137DBDB7FFF1F0C659 /* POPCustomAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCustomAnimation.mm; path = pop/POPCustomAnimation.mm; sourceTree = "<group>"; };
 		4CC8F45FF694E71E5AEFF9C968790BB7 /* WXApiObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WXApiObject.h; path = ShareSDK/Support/PlatformSDK/WeChatSDK/WXApiObject.h; sourceTree = "<group>"; };
 		4D2F1656EF97AE1950CF946C8AD7DBB7 /* POPAnimationExtras.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationExtras.h; path = pop/POPAnimationExtras.h; sourceTree = "<group>"; };
 		4FE66FC9BF8B1EA71970C65C91EDF09F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		50797FF526FE4AE7AA28B1544781F264 /* TPShareAction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareAction.h; path = TPShareKit/Classes/Base/TPShareAction.h; sourceTree = "<group>"; };
 		5095ADCB6D098D5585816FEBF010EDE2 /* Pods-TPShareKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPShareKit_Example.modulemap"; sourceTree = "<group>"; };
 		515DD2B41AC81511429FDB4EA208AAA3 /* POP.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POP.h; path = pop/POP.h; sourceTree = "<group>"; };
 		519161161632F54177361EB6AEC4B4A6 /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEventInternal.h; path = pop/POPAnimationEventInternal.h; sourceTree = "<group>"; };
@@ -312,83 +308,88 @@
 		54869F02EF780CEA5B5F8D79A45B2F63 /* Pods-TPShareKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		56322FA500FDFF4C146AC4BA38D02150 /* POPMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPMath.h; path = pop/POPMath.h; sourceTree = "<group>"; };
 		57B425D5B25FA047152ABD727DF99DF7 /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracerInternal.h; path = pop/POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		5B0F8E1536EF64326660A2BBAEBB898E /* TPShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareManager.h; path = TPShareKit/Classes/Base/TPShareManager.h; sourceTree = "<group>"; };
 		5B8481D4671AB0249BC78F50C8D4A191 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		5CC731880A1E97C951FD9212CEAB6DFE /* TPShareUIAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareUIAPI.h; path = TPShareKit/Classes/ShareUI/TPShareUIAPI.h; sourceTree = "<group>"; };
+		5F7CB16FF2C38B74ECF24C164A30FECE /* TPSharePlatformModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPSharePlatformModel.m; path = TPShareKit/Classes/Base/TPSharePlatformModel.m; sourceTree = "<group>"; };
 		6054D95CDDC97330A9BE92E597463F25 /* POPAnimationRuntime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationRuntime.h; path = pop/POPAnimationRuntime.h; sourceTree = "<group>"; };
 		619A628F072FA800968A324A66A282F1 /* POPAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimation.mm; path = pop/POPAnimation.mm; sourceTree = "<group>"; };
-		62A66EF6DF6F3B3E34F3BFB5B2D6D8D0 /* TPShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPShareKit-umbrella.h"; sourceTree = "<group>"; };
 		62CD58D3D2B5997C2BE0997218C7A3EA /* pop.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = pop.modulemap; sourceTree = "<group>"; };
 		630B4E4295CBC30B559656384D23FF83 /* Pods-TPShareKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPShareKit_Example-dummy.m"; sourceTree = "<group>"; };
-		6460F52200F11B6246EE24FC277E602A /* TPShareCustomeVC+ShareSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPShareCustomeVC+ShareSDK.h"; path = "TPShareKit/Classes/ShareUI/TPShareCustomeVC+ShareSDK.h"; sourceTree = "<group>"; };
 		65738617E54F73DB8743E9BD20B405DB /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		65A9899BF72D5BE24A5EA33CBFF1AF0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		695C1522706B038D589584C0E8D40ADE /* TPShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TPShareKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6663FDA7064544747C9CC94DA7F6E1D0 /* TPShareUIAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareUIAPI.m; path = TPShareKit/Classes/ShareUI/TPShareUIAPI.m; sourceTree = "<group>"; };
 		69E26B532B1CCA5F8110BC0188F2C3CE /* Toast.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Toast.xcassets; path = TPUIKit/Assets/Toast.xcassets; sourceTree = "<group>"; };
 		6AB30E784D4782662CB71A4C7D99ABB5 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		6ACC2F3829115DFF8D7161AD753AF6AF /* TPShareKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPShareKit-umbrella.h"; sourceTree = "<group>"; };
 		6B0F560A49738CCFF7EA8199F84F202E /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimatableProperty.mm; path = pop/POPAnimatableProperty.mm; sourceTree = "<group>"; };
 		6BA62AC391EB65947A164D3EE3FF0556 /* Pods-TPShareKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		6C9FB4A938E91FC292CA762A9F2B9660 /* TPShareManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareManager.h; path = TPShareKit/Classes/Base/TPShareManager.h; sourceTree = "<group>"; };
-		6F9CFA8BE59139A0D883CD26C2B39DA0 /* TPShareBaseModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareBaseModel.m; path = TPShareKit/Classes/Base/TPShareBaseModel.m; sourceTree = "<group>"; };
+		6E11BB876C73D657F0907EEC44ED5FBA /* TPShareAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareAction.m; path = TPShareKit/Classes/Base/TPShareAction.m; sourceTree = "<group>"; };
+		74161A2959922D9603666D0BE5573AC1 /* TPShareManager+Platforms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPShareManager+Platforms.h"; path = "TPShareKit/Classes/Base/TPShareManager+Platforms.h"; sourceTree = "<group>"; };
 		744B83BD07D393FA1BC9420141C1150C /* POPAnimationEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationEvent.h; path = pop/POPAnimationEvent.h; sourceTree = "<group>"; };
 		761F40C3ECDBDE728257EF88384F0C9C /* POPLayerExtras.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPLayerExtras.mm; path = pop/POPLayerExtras.mm; sourceTree = "<group>"; };
 		76A274E8EC5BC68421559E60B5848315 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		796F8CFEAEB0BD8AE6F4674E0C5EE457 /* POPVector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPVector.h; path = pop/POPVector.h; sourceTree = "<group>"; };
-		7DB3D603799728F028061C295FABBF14 /* TPShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPShareKit-dummy.m"; sourceTree = "<group>"; };
-		7DBC57E44F24730B2B2DFC05C5E4C00F /* TPShareAction.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareAction.m; path = TPShareKit/Classes/Base/TPShareAction.m; sourceTree = "<group>"; };
+		7984AB717D0622DD6F1AD03DA525A5CC /* TPShareKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPShareKit.xcconfig; sourceTree = "<group>"; };
 		7F5EDDC1B90A33256BADFE5D0AB984BF /* POPGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPGeometry.h; path = pop/POPGeometry.h; sourceTree = "<group>"; };
+		7F9A67EE659EBB39AE21DB331EFCFD68 /* TPShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareManager.m; path = TPShareKit/Classes/Base/TPShareManager.m; sourceTree = "<group>"; };
 		802425F12839EFB5002EBBBCADAC609C /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationRuntime.mm; path = pop/POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		80E994DF96E14925CA4F016993F7845D /* TPShareAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = TPShareAPI.m; sourceTree = "<group>"; };
+		83AC112F13E7CB8F82B204CB726E8F92 /* TPShareCustomeVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareCustomeVC.h; path = TPShareKit/Classes/ShareUI/TPShareCustomeVC.h; sourceTree = "<group>"; };
 		853ED082E81F0D15E56EC8555D42B115 /* POPSpringAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPSpringAnimation.h; path = pop/POPSpringAnimation.h; sourceTree = "<group>"; };
 		85AC37F34F6C4C0861BBEF22F716CDFE /* Pods-TPShareKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPShareKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		86A010A17AF3F78C7EB50C8588469E0C /* TPSharePlatformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSharePlatformModel.h; path = TPShareKit/Classes/Base/TPSharePlatformModel.h; sourceTree = "<group>"; };
-		87631031B9C4A6FA535153844C9DB87D /* TPShareManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareManager.m; path = TPShareKit/Classes/Base/TPShareManager.m; sourceTree = "<group>"; };
+		898798B64F6680DFB8FEADC15D2EE639 /* TPShareBaseModel+ConfigUI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TPShareBaseModel+ConfigUI.m"; path = "TPShareKit/Classes/ShareUI/TPShareBaseModel+ConfigUI.m"; sourceTree = "<group>"; };
 		89A11B8B03A98405BE93583CBD80791D /* POPAnimatablePropertyTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimatablePropertyTypes.h; path = pop/POPAnimatablePropertyTypes.h; sourceTree = "<group>"; };
 		8A732961AD7E598F5CE766C7CEA0ACF8 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		8AC766AD4E8DB5452C1D1B679DBE1AA3 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		8B2D333BFAC9AE19595E99B7725E461D /* pop-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "pop-prefix.pch"; sourceTree = "<group>"; };
-		8CE8AED57A8B4278CD989519E7C4E7C1 /* TPShareKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareKit.h; path = TPShareKit/Classes/TPShareKit.h; sourceTree = "<group>"; };
 		8F80FE9270976014654B8585E0434902 /* Pods-TPShareKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPShareKit_Tests-dummy.m"; sourceTree = "<group>"; };
 		8FD8C5C3C2F53C25B7EE70F98F45E1F1 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		9194DFE0F17DA2749058391F61FB5E3E /* TransformationMatrix.cpp */ = {isa = PBXFileReference; includeInIndex = 1; name = TransformationMatrix.cpp; path = pop/WebCore/TransformationMatrix.cpp; sourceTree = "<group>"; };
 		91CD9ABF275E58978E4220076E935670 /* TencentOpenAPI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TencentOpenAPI.framework; path = ShareSDK/Support/PlatformSDK/QQSDK/TencentOpenAPI.framework; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94456ED9D33D1C6C120CD1773B1AC55A /* TPShareAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPShareAPI.h; sourceTree = "<group>"; };
 		954CB6B0B8929D24E8A5ECC4663F7C48 /* TPUIKitDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPUIKitDefine.h; path = TPUIKit/Classes/Base/TPUIKitDefine.h; sourceTree = "<group>"; };
 		9615FA8CC3898C1A90727720DC4FADB6 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		9761B597E0682496D0457FB91E1CE536 /* Pods-TPShareKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		9782E68F2BD719F48127625B23524986 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
 		987D20605B0591FD62C48507BEBCCC10 /* POPAnimationTracer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationTracer.h; path = pop/POPAnimationTracer.h; sourceTree = "<group>"; };
-		98A5888ABAA04131027B3C2D56733354 /* TPShareManager+Platforms.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPShareManager+Platforms.h"; path = "TPShareKit/Classes/Base/TPShareManager+Platforms.h"; sourceTree = "<group>"; };
 		991629BBB3D9C4EFF97C205DE8F26F81 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		99A1096C78E449C2A7D820341AF080AF /* TPShareDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareDefine.m; path = TPShareKit/Classes/ShareUI/TPShareDefine.m; sourceTree = "<group>"; };
 		9D7E08F387E191FDD0B3F8656561021D /* POPAnimationEvent.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationEvent.mm; path = pop/POPAnimationEvent.mm; sourceTree = "<group>"; };
 		9DDE91C521E61497940D6D6BC6B6798D /* Pods-TPShareKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9EEBB59FFDF945CD5145D03E7E596493 /* TPShareManager+Platforms.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TPShareManager+Platforms.m"; path = "TPShareKit/Classes/Base/TPShareManager+Platforms.m"; sourceTree = "<group>"; };
 		9F32967A1C390F05FDF1FB30FE3E1AEF /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		A6BEF915B0359231FE46F184E0ED4C2E /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		A7782A3F6A7F995360D56FA89CD2B61D /* Pods_TPShareKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPShareKit_Tests.framework; path = "Pods-TPShareKit_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A90A31582B833E11800320872D8862B6 /* TPShareAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = TPShareAPI.h; sourceTree = "<group>"; };
 		AA1E6C60184B8D001F189083695E5A63 /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimationInternal.h; path = pop/POPBasicAnimationInternal.h; sourceTree = "<group>"; };
 		AA3A01AC3C680309526AA0BB3878BD2E /* Pods-TPShareKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPShareKit_Tests-umbrella.h"; sourceTree = "<group>"; };
 		ABC26F5DC08F9030C876CB49F40E1C3A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADED0C295490CB79DC81E59936F8B845 /* TPShareCustomeActionProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareCustomeActionProtocol.h; path = TPShareKit/Classes/ShareUI/TPShareCustomeActionProtocol.h; sourceTree = "<group>"; };
 		AE1522D6DBA6B2594B8897B7804A6F27 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		B0618999C926D0C17DBB4535C6F7FF1A /* POPCGUtils.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPCGUtils.mm; path = pop/POPCGUtils.mm; sourceTree = "<group>"; };
-		B1BDCE6B9CD7AE0E20E7A9E2B75CC3E5 /* TPSharePlatformProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSharePlatformProtocol.h; path = TPShareKit/Classes/Base/TPSharePlatformProtocol.h; sourceTree = "<group>"; };
+		B29BD96D6BA2EB69F26E36230DBE198F /* TPShareImageDefine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareImageDefine.h; path = TPShareKit/Classes/ShareUI/TPShareImageDefine.h; sourceTree = "<group>"; };
+		B29E24405FE46340241640C693CB80B8 /* TPShareKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TPShareKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B483370B2AD96239D2F702477B003342 /* TPUIKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPUIKit-dummy.m"; sourceTree = "<group>"; };
+		B948637854BC2235A2B16DE25C680780 /* TPShareKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPShareKit.modulemap; sourceTree = "<group>"; };
 		BC18F2FF5EAAA14BFDA0AB66DC176242 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		BC8EEE404E207E805B02F8195D738820 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD3B30832E40A5BF7B3E288FBDE376B5 /* POPAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPAnimationInternal.h; path = pop/POPAnimationInternal.h; sourceTree = "<group>"; };
 		BDA0BB58E0BFBDD34067BC23E0DEE372 /* POPAnimationTracer.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimationTracer.mm; path = pop/POPAnimationTracer.mm; sourceTree = "<group>"; };
 		BDEF4C8C5F3D45EB4D46523A25E0C7D9 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		BE9A3BE990E06A447FD4DFC8DFE09B2E /* TPShareCustomeVC+ShareSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPShareCustomeVC+ShareSDK.h"; path = "TPShareKit/Classes/ShareUI/TPShareCustomeVC+ShareSDK.h"; sourceTree = "<group>"; };
 		BF9B40FAE2BBE1C19BEDA57705E9D931 /* Pods-TPShareKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPShareKit_Example-umbrella.h"; sourceTree = "<group>"; };
-		C00BC415D1717DD666345BDC8D50B488 /* TPShareKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPShareKit-prefix.pch"; sourceTree = "<group>"; };
 		C6BB4344B433BC04346487CB9059F763 /* TPUIKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPUIKit.xcconfig; sourceTree = "<group>"; };
 		C6F1A9422BC4C1091D3188D5A65FDC63 /* TPToast.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPToast.h; path = TPUIKit/Classes/Toast/TPToast.h; sourceTree = "<group>"; };
 		C7E38FB863A765EA33F0012E34ED827D /* POPAnimator.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPAnimator.mm; path = pop/POPAnimator.mm; sourceTree = "<group>"; };
 		C83EC7487B4275F15E141FF8F74FA0AA /* Pods-TPShareKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Example-resources.sh"; sourceTree = "<group>"; };
 		C9188DA27040CC9B8227452DA9EFCBDA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE37D6DE66B6F4B7BF0902F9A22F74A0 /* TPShareCustomView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareCustomView.h; path = TPShareKit/Classes/ShareUI/TPShareCustomView.h; sourceTree = "<group>"; };
 		CED3FA1876F89069DD37FE881B9013C4 /* TPToastImageView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPToastImageView.h; path = TPUIKit/Classes/Toast/TPToastImageView.h; sourceTree = "<group>"; };
+		D15E4720BF4F6DE10A03A43390985CFE /* TPSharePlatformDataProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSharePlatformDataProtocol.h; path = TPShareKit/Classes/Base/TPSharePlatformDataProtocol.h; sourceTree = "<group>"; };
 		D16AA4453531D76E8E90C0062C09C8FB /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
-		D1B9FB4CEA3330A62554CA4AA0A448BF /* TPShareCustomeUI.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = TPShareCustomeUI.xcassets; path = TPShareKit/Assets/TPShareCustomeUI.xcassets; sourceTree = "<group>"; };
 		D1F8FA808AF489B88684DBED5CBB9CE3 /* libWeChatSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libWeChatSDK.a; path = ShareSDK/Support/PlatformSDK/WeChatSDK/libWeChatSDK.a; sourceTree = "<group>"; };
 		D2978B349FC3366E23034F99FCF32967 /* ShareSDKConnector.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ShareSDKConnector.framework; path = ShareSDK/Support/Required/ShareSDKConnector.framework; sourceTree = "<group>"; };
-		D2E840EA11E2BC6744B3CB968C35D0F2 /* TPShareBaseModel+ConfigUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPShareBaseModel+ConfigUI.h"; path = "TPShareKit/Classes/ShareUI/TPShareBaseModel+ConfigUI.h"; sourceTree = "<group>"; };
+		D2FE155056890DC8A0DEC0C4FB7A58E2 /* TPSharePlatformModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSharePlatformModel.h; path = TPShareKit/Classes/Base/TPSharePlatformModel.h; sourceTree = "<group>"; };
 		D45B453076EAA3E1293A096B3F4E8008 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
 		D5BFAA4994B5EB0DCB754910552BCC86 /* TPToastImageView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPToastImageView.m; path = TPUIKit/Classes/Toast/TPToastImageView.m; sourceTree = "<group>"; };
 		D66D0A50635A237FEEDFE65D1F3536F3 /* Pods-TPShareKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPShareKit_Tests.modulemap"; sourceTree = "<group>"; };
@@ -400,27 +401,30 @@
 		DB52ACEE793727B63860C0A7F71E911A /* POPGeometry.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPGeometry.mm; path = pop/POPGeometry.mm; sourceTree = "<group>"; };
 		DBB505614D8868A6749BA1B7F9590A59 /* POPCustomAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPCustomAnimation.h; path = pop/POPCustomAnimation.h; sourceTree = "<group>"; };
 		DDED32454FC608ED9F6DD0D6C9AA08FE /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		E04C9FEAA52B411887491B59323265AA /* TPSharePlatformDataProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPSharePlatformDataProtocol.h; path = TPShareKit/Classes/Base/TPSharePlatformDataProtocol.h; sourceTree = "<group>"; };
+		DE1E669750C93F1501E977A0D08AC17C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DF7C6036FF048473CE2F1C568C7CD166 /* TPShareCustomeVC.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareCustomeVC.m; path = TPShareKit/Classes/ShareUI/TPShareCustomeVC.m; sourceTree = "<group>"; };
 		E098467C06DFB0FDCD0BAE515FA6433B /* POPMath.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPMath.mm; path = pop/POPMath.mm; sourceTree = "<group>"; };
 		E1B0366F4AF8756300CD56EA735F91BC /* TPUIKitDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPUIKitDefine.m; path = TPUIKit/Classes/Base/TPUIKitDefine.m; sourceTree = "<group>"; };
 		E20DA2ACB3B9217023EF0250F5741397 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
 		E4EAB901F9A7481377D6EA1499E5FBEB /* Pods-TPShareKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPShareKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E6689F3F2192B44303596A9290334327 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E859B1749C4C3609B600ADD1664AE1F6 /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPDecayAnimationInternal.h; path = pop/POPDecayAnimationInternal.h; sourceTree = "<group>"; };
 		E95009554F1BE866CF3BE544DDDD80F6 /* POPDecayAnimation.mm */ = {isa = PBXFileReference; includeInIndex = 1; name = POPDecayAnimation.mm; path = pop/POPDecayAnimation.mm; sourceTree = "<group>"; };
-		EA7524CE10BB61DE037D0A5F1F025C0B /* TPShareCustomeVC.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareCustomeVC.h; path = TPShareKit/Classes/ShareUI/TPShareCustomeVC.h; sourceTree = "<group>"; };
-		EDCC3CABEADEE497322BEB1F2AA149FD /* TPShareCustomeVC+ShareSDK.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "TPShareCustomeVC+ShareSDK.m"; path = "TPShareKit/Classes/ShareUI/TPShareCustomeVC+ShareSDK.m"; sourceTree = "<group>"; };
+		EA2191DDF32E87B539F4919650851BAA /* TPShareBaseModel+ConfigUI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "TPShareBaseModel+ConfigUI.h"; path = "TPShareKit/Classes/ShareUI/TPShareBaseModel+ConfigUI.h"; sourceTree = "<group>"; };
+		EAA383ECA2DCA5A7C8AA5A0FE0921696 /* TPShareEnumeration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareEnumeration.h; path = TPShareKit/Classes/Base/TPShareEnumeration.h; sourceTree = "<group>"; };
+		EBF43CB18F9A666EB23525E1DC112FDF /* TPShareKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareKit.h; path = TPShareKit/Classes/TPShareKit.h; sourceTree = "<group>"; };
 		F12922C911E374B9101CE81CF41A16AB /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
+		F2DFA7D80ECA59FE23C77D212B2514BF /* TPShareCustomView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareCustomView.m; path = TPShareKit/Classes/ShareUI/TPShareCustomView.m; sourceTree = "<group>"; };
 		F3D4C57EF4D701F6528BC64F3994B49A /* TPUIKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPUIKit-umbrella.h"; sourceTree = "<group>"; };
 		F44E8F3FD64EACA623319388E66DBFE7 /* TPSimButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPSimButton.m; path = TPUIKit/Classes/SimButton/TPSimButton.m; sourceTree = "<group>"; };
 		F4997E8E318E2B59A0A134EBD1156827 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		F5238F9D4F18E037934756C3738AECF8 /* pop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = pop.framework; path = pop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F535BF1F5D4C418AD2CC09432E1D78E6 /* TPShareKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPShareKit-dummy.m"; sourceTree = "<group>"; };
 		F6FB9F0839ABC3CDA3F742234557B75A /* POPBasicAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = POPBasicAnimation.h; path = pop/POPBasicAnimation.h; sourceTree = "<group>"; };
 		F71F5B9A2155E95236A99117905BF435 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7658C9B6417151D18C11AC82798EC8D /* Pods-TPShareKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPShareKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F7DE0A9CD2029D7B4DA77B3E0C36651F /* Pods-TPShareKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPShareKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		F880963348E5F476A2900E437E9B561C /* TPShareImageDefine.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TPShareImageDefine.m; path = TPShareKit/Classes/ShareUI/TPShareImageDefine.m; sourceTree = "<group>"; };
 		FB09D6BF5AEB82F50B532BE14672C08D /* TPUIKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPUIKit.modulemap; sourceTree = "<group>"; };
-		FBF04BB74D8AAD94D1699ACAE5188A60 /* TPShareEnumeration.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TPShareEnumeration.h; path = TPShareKit/Classes/Base/TPShareEnumeration.h; sourceTree = "<group>"; };
 		FC93CD1A0BFE9BACEB139C313DA09EC4 /* MOBFoundationEx.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundationEx.framework; sourceTree = "<group>"; };
 		FD61658649E8ED1E9E12080B3CF545A5 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		FDA868BA166BAF6F020992C9A7702CE9 /* Pods-TPShareKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPShareKit_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -491,37 +495,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		09F045B9D9D695357AF9D20D501420F9 /* ShareUI */ = {
-			isa = PBXGroup;
-			children = (
-				D2E840EA11E2BC6744B3CB968C35D0F2 /* TPShareBaseModel+ConfigUI.h */,
-				3D931914E5C06B082B934189213EE9D5 /* TPShareBaseModel+ConfigUI.m */,
-				EA7524CE10BB61DE037D0A5F1F025C0B /* TPShareCustomeVC.h */,
-				41E69286CA5F657E21F3A05A1C86224D /* TPShareCustomeVC.m */,
-				6460F52200F11B6246EE24FC277E602A /* TPShareCustomeVC+ShareSDK.h */,
-				EDCC3CABEADEE497322BEB1F2AA149FD /* TPShareCustomeVC+ShareSDK.m */,
-				1CB917CD901B583CBD8E3A47D9BDD0F8 /* TPShareCustomView.h */,
-				06E36A8C53C86D3DB897423C7606B56F /* TPShareCustomView.m */,
-				3A054BD19EB81794BD43835D2EF183ED /* TPShareDefine.h */,
-				99A1096C78E449C2A7D820341AF080AF /* TPShareDefine.m */,
-				F93CF22DD746769DEEE9E01BB47A9467 /* Resources */,
-			);
-			name = ShareUI;
-			sourceTree = "<group>";
-		};
-		0B4900B4954C3DD747B6EC66A12A5BB4 /* TPShareKit */ = {
-			isa = PBXGroup;
-			children = (
-				8CE8AED57A8B4278CD989519E7C4E7C1 /* TPShareKit.h */,
-				6EF0FA9E676C9191B1181824E2AD6CB4 /* Base */,
-				26DB6DF257722742C25EBC868AD8AA94 /* Pod */,
-				09F045B9D9D695357AF9D20D501420F9 /* ShareUI */,
-				3BD4FF5A1D52EF4214CD6A3EFA3A83B0 /* Support Files */,
-			);
-			name = TPShareKit;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		11EA88C94900E1D5080012B2E3E9D63C /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -567,6 +540,27 @@
 			name = ShareSDKPlatforms;
 			sourceTree = "<group>";
 		};
+		22690955AC5D7BCF62EEB382FED7A7C1 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				4685742D4ADCBB276B45A719E31C802D /* TPShareAction.h */,
+				6E11BB876C73D657F0907EEC44ED5FBA /* TPShareAction.m */,
+				0B0835A4C0E349B2FA4D271FA8B36130 /* TPShareBaseModel.h */,
+				3073211363C3B86750366CA91D5B892B /* TPShareBaseModel.m */,
+				EAA383ECA2DCA5A7C8AA5A0FE0921696 /* TPShareEnumeration.h */,
+				5B0F8E1536EF64326660A2BBAEBB898E /* TPShareManager.h */,
+				7F9A67EE659EBB39AE21DB331EFCFD68 /* TPShareManager.m */,
+				74161A2959922D9603666D0BE5573AC1 /* TPShareManager+Platforms.h */,
+				9EEBB59FFDF945CD5145D03E7E596493 /* TPShareManager+Platforms.m */,
+				D15E4720BF4F6DE10A03A43390985CFE /* TPSharePlatformDataProtocol.h */,
+				D2FE155056890DC8A0DEC0C4FB7A58E2 /* TPSharePlatformModel.h */,
+				5F7CB16FF2C38B74ECF24C164A30FECE /* TPSharePlatformModel.m */,
+				405A3099591C483FCC6F447B15511F3C /* TPSharePlatformProtocol.h */,
+				38A1C60143B7154C182FFED443BAF255 /* Interface */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
 		249CEF18BD493314EAA053FB0DD5476C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -591,16 +585,6 @@
 			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		26DB6DF257722742C25EBC868AD8AA94 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				E6689F3F2192B44303596A9290334327 /* LICENSE */,
-				37E4309D2D48361D7CF4EF21AC3A9332 /* README.md */,
-				695C1522706B038D589584C0E8D40ADE /* TPShareKit.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2CBA83ACD8FF055ECE8B0F4CF4F4CBE9 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -621,11 +605,32 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		311703188FD49CDE9BC9B41F3455D867 /* Interface */ = {
+		2F1747CA89DBCCD3AE18FA9AB187CA53 /* ShareUI */ = {
 			isa = PBXGroup;
 			children = (
-				94456ED9D33D1C6C120CD1773B1AC55A /* TPShareAPI.h */,
-				40083A0680B928171D8637DAAFAF8C3C /* TPShareAPI.m */,
+				EA2191DDF32E87B539F4919650851BAA /* TPShareBaseModel+ConfigUI.h */,
+				898798B64F6680DFB8FEADC15D2EE639 /* TPShareBaseModel+ConfigUI.m */,
+				ADED0C295490CB79DC81E59936F8B845 /* TPShareCustomeActionProtocol.h */,
+				83AC112F13E7CB8F82B204CB726E8F92 /* TPShareCustomeVC.h */,
+				DF7C6036FF048473CE2F1C568C7CD166 /* TPShareCustomeVC.m */,
+				BE9A3BE990E06A447FD4DFC8DFE09B2E /* TPShareCustomeVC+ShareSDK.h */,
+				0DC35FAE1A43684AE4ADD9FF28E20A1C /* TPShareCustomeVC+ShareSDK.m */,
+				CE37D6DE66B6F4B7BF0902F9A22F74A0 /* TPShareCustomView.h */,
+				F2DFA7D80ECA59FE23C77D212B2514BF /* TPShareCustomView.m */,
+				B29BD96D6BA2EB69F26E36230DBE198F /* TPShareImageDefine.h */,
+				F880963348E5F476A2900E437E9B561C /* TPShareImageDefine.m */,
+				5CC731880A1E97C951FD9212CEAB6DFE /* TPShareUIAPI.h */,
+				6663FDA7064544747C9CC94DA7F6E1D0 /* TPShareUIAPI.m */,
+				D0266C83C7072C9EB0CDF46A127DEEAD /* Resources */,
+			);
+			name = ShareUI;
+			sourceTree = "<group>";
+		};
+		38A1C60143B7154C182FFED443BAF255 /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				A90A31582B833E11800320872D8862B6 /* TPShareAPI.h */,
+				80E994DF96E14925CA4F016993F7845D /* TPShareAPI.m */,
 			);
 			name = Interface;
 			path = TPShareKit/Classes/Base/Interface;
@@ -638,19 +643,6 @@
 				FC93CD1A0BFE9BACEB139C313DA09EC4 /* MOBFoundationEx.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		3BD4FF5A1D52EF4214CD6A3EFA3A83B0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				343EE107AB481D03B8E76C4806D72D62 /* TPShareKit.modulemap */,
-				4516BF968EEC79D32204F9242D469EE5 /* TPShareKit.xcconfig */,
-				7DB3D603799728F028061C295FABBF14 /* TPShareKit-dummy.m */,
-				C00BC415D1717DD666345BDC8D50B488 /* TPShareKit-prefix.pch */,
-				62A66EF6DF6F3B3E34F3BFB5B2D6D8D0 /* TPShareKit-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/TPShareKit";
 			sourceTree = "<group>";
 		};
 		419E9FDA8E6958F8285850D4358E03A0 /* ShareSDK */ = {
@@ -717,28 +709,6 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		6EF0FA9E676C9191B1181824E2AD6CB4 /* Base */ = {
-			isa = PBXGroup;
-			children = (
-				50797FF526FE4AE7AA28B1544781F264 /* TPShareAction.h */,
-				7DBC57E44F24730B2B2DFC05C5E4C00F /* TPShareAction.m */,
-				298CA67D3D9686F6B39FECFF6D572F6C /* TPShareBaseModel.h */,
-				6F9CFA8BE59139A0D883CD26C2B39DA0 /* TPShareBaseModel.m */,
-				12557D421DFBAC9C3DFE3C373F1ADBFB /* TPShareCustomeActionProtocol.h */,
-				FBF04BB74D8AAD94D1699ACAE5188A60 /* TPShareEnumeration.h */,
-				6C9FB4A938E91FC292CA762A9F2B9660 /* TPShareManager.h */,
-				87631031B9C4A6FA535153844C9DB87D /* TPShareManager.m */,
-				98A5888ABAA04131027B3C2D56733354 /* TPShareManager+Platforms.h */,
-				0FA5993AF5104A7AF3C66B39C4CDF1E4 /* TPShareManager+Platforms.m */,
-				E04C9FEAA52B411887491B59323265AA /* TPSharePlatformDataProtocol.h */,
-				86A010A17AF3F78C7EB50C8588469E0C /* TPSharePlatformModel.h */,
-				1B8EA2E29A43003130A8DFE90D998F38 /* TPSharePlatformModel.m */,
-				B1BDCE6B9CD7AE0E20E7A9E2B75CC3E5 /* TPSharePlatformProtocol.h */,
-				311703188FD49CDE9BC9B41F3455D867 /* Interface */,
-			);
-			name = Base;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -766,6 +736,16 @@
 			);
 			name = MOBFoundation;
 			path = MOBFoundation;
+			sourceTree = "<group>";
+		};
+		88D8F772D6EEB06D9DFAC304C8B9EEEC /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				DE1E669750C93F1501E977A0D08AC17C /* LICENSE */,
+				00A371B8ED4733A366C90F7A55B43A51 /* README.md */,
+				B29E24405FE46340241640C693CB80B8 /* TPShareKit.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		95D42292E6564EF7106668FE0B9C1460 /* Products */ = {
@@ -903,6 +883,19 @@
 			path = Masonry;
 			sourceTree = "<group>";
 		};
+		B50AD45562DBE875AB6C693B3A9BA32B /* TPShareKit */ = {
+			isa = PBXGroup;
+			children = (
+				EBF43CB18F9A666EB23525E1DC112FDF /* TPShareKit.h */,
+				22690955AC5D7BCF62EEB382FED7A7C1 /* Base */,
+				88D8F772D6EEB06D9DFAC304C8B9EEEC /* Pod */,
+				2F1747CA89DBCCD3AE18FA9AB187CA53 /* ShareUI */,
+				CBD187CDC35C10A4E8A91D79ACCD6EAB /* Support Files */,
+			);
+			name = TPShareKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		C19A0FB6DA6134B72A0877AAFF2D95CB /* ShareSDKExtension */ = {
 			isa = PBXGroup;
 			children = (
@@ -923,9 +916,30 @@
 		C7B54F32789CB08AB2B17D53F96D0E74 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0B4900B4954C3DD747B6EC66A12A5BB4 /* TPShareKit */,
+				B50AD45562DBE875AB6C693B3A9BA32B /* TPShareKit */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CBD187CDC35C10A4E8A91D79ACCD6EAB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B948637854BC2235A2B16DE25C680780 /* TPShareKit.modulemap */,
+				7984AB717D0622DD6F1AD03DA525A5CC /* TPShareKit.xcconfig */,
+				F535BF1F5D4C418AD2CC09432E1D78E6 /* TPShareKit-dummy.m */,
+				3069644B796618DF0F74BCC8D8117E87 /* TPShareKit-prefix.pch */,
+				6ACC2F3829115DFF8D7161AD753AF6AF /* TPShareKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/TPShareKit";
+			sourceTree = "<group>";
+		};
+		D0266C83C7072C9EB0CDF46A127DEEAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				175E7DCD462E310CADF8137C0823146E /* TPShareCustomeUI.xcassets */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		D02B953F0FBF3AA93EBB05062D479939 /* Pods-TPShareKit_Tests */ = {
@@ -1018,14 +1032,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F93CF22DD746769DEEE9E01BB47A9467 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				D1B9FB4CEA3330A62554CA4AA0A448BF /* TPShareCustomeUI.xcassets */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -1077,6 +1083,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		A93C408165F861F98B30FE250A2CC12D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D0F34C8ECD1E2CA9BF0484C6D973CAB /* TPShareAction.h in Headers */,
+				9B3A2593AAFCE6775AE4B19C532AC8F5 /* TPShareAPI.h in Headers */,
+				8E464EE210F53A672E14ABF9351C9206 /* TPShareBaseModel+ConfigUI.h in Headers */,
+				F6B29330FFD90FCDA5FBAEC90B7F0C9C /* TPShareBaseModel.h in Headers */,
+				F84CB7ECAD34927B1C5D0DC1BFA991A1 /* TPShareCustomeActionProtocol.h in Headers */,
+				BACCEC18CC85DC2F5D86EFA359CD6668 /* TPShareCustomeVC+ShareSDK.h in Headers */,
+				1AC5BF648FCA2FD766642127ECDD74C0 /* TPShareCustomeVC.h in Headers */,
+				6C735E57A3CCBA3E9786E06ACC3D81EB /* TPShareCustomView.h in Headers */,
+				EAEC2E9243D7EC9B04402CF501845B62 /* TPShareEnumeration.h in Headers */,
+				95C0AB69DFEDF5C7F8F3107E78C08F0B /* TPShareImageDefine.h in Headers */,
+				3EA8101FC6D919BDFB3CB94035F4B00C /* TPShareKit-umbrella.h in Headers */,
+				2DF9BDD512C250AA99BD84286F079202 /* TPShareKit.h in Headers */,
+				12EEC1BBE723DC32A4B858830008FE5F /* TPShareManager+Platforms.h in Headers */,
+				38F38000FF914EDB5361EE3484791BEC /* TPShareManager.h in Headers */,
+				372F51B57368535623B0659EE5319C20 /* TPSharePlatformDataProtocol.h in Headers */,
+				D589A9958BD7B2CD2131F0E5A3F282AE /* TPSharePlatformModel.h in Headers */,
+				91EF4F87EBD741017930A32B1A27AAE5 /* TPSharePlatformProtocol.h in Headers */,
+				AC93BA7C9154632E526361FA8649EED6 /* TPShareUIAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BAF1564D441BD6CB91117D72A7569118 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1116,30 +1147,6 @@
 				6B7D26EBD90D5ACF72AB219DC4B71422 /* POPVector.h in Headers */,
 				DDDBBBF5AC1A65FCAA33822D15269F36 /* TransformationMatrix.h in Headers */,
 				A7CB34A0D16E97C577AAB0DDC633D601 /* UnitBezier.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E25D760BBB5A984B4CF5073E825983C4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				58C143CF9CE88DCE4B2A024062041ED4 /* TPShareAction.h in Headers */,
-				8C743F27C00396D9A5AB16DC1838A212 /* TPShareAPI.h in Headers */,
-				811FB605394AC4F63026170598F49BAA /* TPShareBaseModel+ConfigUI.h in Headers */,
-				80F65A2188B7190609012224B276228C /* TPShareBaseModel.h in Headers */,
-				21FE13551893793A4219139332C34C70 /* TPShareCustomeActionProtocol.h in Headers */,
-				3C9DAA479B82F19716D109B6C150FD84 /* TPShareCustomeVC+ShareSDK.h in Headers */,
-				861A8523F72BFC2E41764FCD794B6363 /* TPShareCustomeVC.h in Headers */,
-				C9C1F55EE120164D29EF910B9BCC9727 /* TPShareCustomView.h in Headers */,
-				3AF2C969A1A8C64CF5A82A4F19F48C38 /* TPShareDefine.h in Headers */,
-				8217F011EB777E0DCE815CA102574B94 /* TPShareEnumeration.h in Headers */,
-				7C1C716632EEA47492CFF629591C47C1 /* TPShareKit-umbrella.h in Headers */,
-				6241A8732878546794CD64F89F3DEE10 /* TPShareKit.h in Headers */,
-				254014DAF526F453ABDE997091C9CECE /* TPShareManager+Platforms.h in Headers */,
-				04BC53AB666AE13242AE73FB71A7A283 /* TPShareManager.h in Headers */,
-				2275F489A2FA86C61D2FAF54D73670BF /* TPSharePlatformDataProtocol.h in Headers */,
-				A5C96F48C71D8629372E0D4B7D2FD847 /* TPSharePlatformModel.h in Headers */,
-				62CFFFFE9B15175814F3083F97BB59A1 /* TPSharePlatformProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1204,8 +1211,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A28DD80EBC0080AD2104878237F80925 /* Build configuration list for PBXNativeTarget "TPShareKit" */;
 			buildPhases = (
-				E25D760BBB5A984B4CF5073E825983C4 /* Headers */,
-				1018FF07B5FF7BC82814917C8C6A13E1 /* Sources */,
+				A93C408165F861F98B30FE250A2CC12D /* Headers */,
+				25A10FF5980A6C870E220046E50B4505 /* Sources */,
 				AB6D68FB4DF1E8CA48F0C8674A4A90AE /* Frameworks */,
 				26ED23CAFBBD2928F699BF3FFF3B5383 /* Resources */,
 			);
@@ -1382,25 +1389,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1018FF07B5FF7BC82814917C8C6A13E1 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				01BC0AACE8A884A47B05C8518494BC3B /* TPShareAction.m in Sources */,
-				0E2A9300477748144C9F931CCC31E0F9 /* TPShareAPI.m in Sources */,
-				1504851531C0BFF5015E09624B3007B1 /* TPShareBaseModel+ConfigUI.m in Sources */,
-				9C8FED27124F7476464A650EBE85D062 /* TPShareBaseModel.m in Sources */,
-				0E671607ABCCE5C2D53C6B37F8D74AC9 /* TPShareCustomeVC+ShareSDK.m in Sources */,
-				D5221D4FEB2E5D12AAE4294517262A92 /* TPShareCustomeVC.m in Sources */,
-				908EBF6A8743C4E09770B56B9BD3198F /* TPShareCustomView.m in Sources */,
-				AEF6E4DF6967EC2CD2E9F6A5A7F9E42A /* TPShareDefine.m in Sources */,
-				E93CBAE6A36932D0E2576ACF6BB550C8 /* TPShareKit-dummy.m in Sources */,
-				51A2A4A1E1611CFE5C3DC1AD5E69A626 /* TPShareManager+Platforms.m in Sources */,
-				10DD2131AC903913DF9D39CA272E4494 /* TPShareManager.m in Sources */,
-				1BD39F17BB6F30968107909988D20CB5 /* TPSharePlatformModel.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		20C1A6B4980495E6C35E393B73D83338 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1410,6 +1398,26 @@
 				0F79625ACAB02904A47BBAD3DE0FF51F /* TPToastImageView.m in Sources */,
 				60E7DFBB5DF4F15E550FBBB066D2A7E5 /* TPUIKit-dummy.m in Sources */,
 				DF652637E58BD48E0FF5D987C286F1F0 /* TPUIKitDefine.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25A10FF5980A6C870E220046E50B4505 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71A490F580FAD8B30A4605894B891634 /* TPShareAction.m in Sources */,
+				0804A8FAC8BEAFE61C6CA60B44CE4D75 /* TPShareAPI.m in Sources */,
+				AE1129C8F07D2997EC1D987B7FCDEDBB /* TPShareBaseModel+ConfigUI.m in Sources */,
+				946FC7F6E230EB724F86663824E2923A /* TPShareBaseModel.m in Sources */,
+				3AB64DBA337CCCC34D1830B4A0C5AC1C /* TPShareCustomeVC+ShareSDK.m in Sources */,
+				298A8E3E8ECA9DF8402CC3ED20C0D2C5 /* TPShareCustomeVC.m in Sources */,
+				AF954431DED84A2E5D832E6E7205FAED /* TPShareCustomView.m in Sources */,
+				F3FA189EA591C10C9BAA243BC91CD6A9 /* TPShareImageDefine.m in Sources */,
+				4320CCDA85612CD1192FDFA943216A06 /* TPShareKit-dummy.m in Sources */,
+				07F59FA618870B7685949626D46E9B1B /* TPShareManager+Platforms.m in Sources */,
+				72173D215550F08765109A0474867894 /* TPShareManager.m in Sources */,
+				3722A93EC4E249A358AC9A0C5661E8C4 /* TPSharePlatformModel.m in Sources */,
+				F10797C06F317B386BA437DC52749091 /* TPShareUIAPI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1586,7 +1594,7 @@
 		};
 		3457C32F276BC68BB86C906678BD4503 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4516BF968EEC79D32204F9242D469EE5 /* TPShareKit.xcconfig */;
+			baseConfigurationReference = 7984AB717D0622DD6F1AD03DA525A5CC /* TPShareKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1809,7 +1817,7 @@
 		};
 		89C1D1F90422D55D4DCAE229D3ACCFDC /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4516BF968EEC79D32204F9242D469EE5 /* TPShareKit.xcconfig */;
+			baseConfigurationReference = 7984AB717D0622DD6F1AD03DA525A5CC /* TPShareKit.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

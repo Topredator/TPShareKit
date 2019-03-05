@@ -17,15 +17,15 @@ PODS:
     - MOBFoundation
   - MOBFoundation (3.2.1)
   - pop (1.0.12)
-  - TPShareKit (0.1.0):
-    - TPShareKit/Base (= 0.1.0)
-    - TPShareKit/ShareUI (= 0.1.0)
-  - TPShareKit/Base (0.1.0):
+  - TPShareKit (1.0.0):
+    - TPShareKit/Base (= 1.0.0)
+    - TPShareKit/ShareUI (= 1.0.0)
+  - TPShareKit/Base (1.0.0):
     - mob_sharesdk
     - mob_sharesdk/ShareSDKExtension
     - mob_sharesdk/ShareSDKPlatforms/QQ
     - mob_sharesdk/ShareSDKPlatforms/WeChat
-  - TPShareKit/ShareUI (0.1.0):
+  - TPShareKit/ShareUI (1.0.0):
     - Masonry (~> 1.1.0)
     - pop
     - TPShareKit/Base
@@ -59,7 +59,7 @@ SPEC CHECKSUMS:
   mob_sharesdk: e906a03f75d03ba1404fb046e055160c8258242d
   MOBFoundation: ce2ba976fd435b0cb06897466b2746e639895b7d
   pop: d582054913807fd11fd50bfe6a539d91c7e1a55a
-  TPShareKit: e3eb0a64ad504df708fe6f1eb7e841818c9666c7
+  TPShareKit: 3559aeae9cf24ba43f0fc63e7a76f20fcbc31510
   TPUIKit: ec321a34328be153698ad9dd32e6ebf21cf2ea30
 
 PODFILE CHECKSUM: 19f0777709de26d0cc0518d1a7ab30f085db83cb

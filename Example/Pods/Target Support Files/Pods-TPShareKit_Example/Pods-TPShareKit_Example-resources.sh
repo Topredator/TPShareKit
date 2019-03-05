@@ -92,6 +92,7 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/AppIcon.appiconset/Contents.json"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/Contents.json"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_CopyLink.imageset/Contents.json"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_CopyLink.imageset/icon_share_chain@2x.png"
@@ -109,6 +110,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_Wechat.imageset/icon_share_weixin@2x.png"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_Wechat.imageset/icon_share_weixin@3x.png"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets"
+  install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/AppIcon.appiconset"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_CopyLink.imageset"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_Friends.imageset"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_QQ.imageset"
@@ -117,6 +119,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_resource "${PODS_ROOT}/mob_sharesdk/ShareSDK/Support/Required/ShareSDK.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/AppIcon.appiconset/Contents.json"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/Contents.json"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_CopyLink.imageset/Contents.json"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_CopyLink.imageset/icon_share_chain@2x.png"
@@ -134,6 +137,7 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_Wechat.imageset/icon_share_weixin@2x.png"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_Wechat.imageset/icon_share_weixin@3x.png"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets"
+  install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/AppIcon.appiconset"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_CopyLink.imageset"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_Friends.imageset"
   install_resource "${PODS_ROOT}/../../TPShareKit/Assets/TPShareCustomeUI.xcassets/TPShare_QQ.imageset"

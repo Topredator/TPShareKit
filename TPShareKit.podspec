@@ -10,7 +10,7 @@ TPShareKit 是一个分享组件的库
   s.homepage         = 'https://github.com/Topredator/TPShareKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Topredator' => 'luyanggold@163.com' }
-  s.source           = { :git => 'https://github.com/Topredator/TPShareKit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'git@github.com:Topredator/TPShareKit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
   s.static_framework = true

@@ -597,7 +597,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 604250F29323397976D7D7DE /* Pods-TPShareKit_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5GX23WY4Y7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TPShareKit/TPShareKit-Prefix.pch";
@@ -614,7 +613,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 064B04BCDF8B954C7884589C /* Pods-TPShareKit_Example.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5GX23WY4Y7;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TPShareKit/TPShareKit-Prefix.pch";

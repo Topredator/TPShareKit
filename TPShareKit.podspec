@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'TPShareKit'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'TPShareKit is a shared component library.'
 
   s.description      = <<-DESC
@@ -18,6 +18,10 @@ TPShareKit 是一个分享组件的库
 
   s.subspec 'Base' do |ss|
     ss.source_files = 'TPShareKit/Classes/Base/**/*'
+    ss.dependency 'mob_sharesdk'
+    ss.dependency 'mob_sharesdk/ShareSDKExtension'
+    ss.dependency 'mob_sharesdk/ShareSDKPlatforms/QQ'
+    ss.dependency 'mob_sharesdk/ShareSDKPlatforms/WeChat'
   end
 
   s.subspec 'ShareUI' do |ss|
@@ -25,6 +29,8 @@ TPShareKit 是一个分享组件的库
     ss.dependency 'TPShareKit/Base'
     ss.dependency 'Masonry', '~> 1.1.0'
     ss.dependency 'pop'
+    ss.dependency 'TPUIKit/SimButton'
+    ss.dependency 'TPUIKit/Toast'
     ss.resources = 'TPShareKit/Assets/**/*'
   end
 

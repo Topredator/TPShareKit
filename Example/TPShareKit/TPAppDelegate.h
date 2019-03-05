@@ -8,7 +8,7 @@
 
 @import UIKit;
 
-@interface TPAppDelegate : UIResponder <UIApplicationDelegate>
+@interface TPAppDelegate : UIResponder <UIApplicationDelegate, TPSharePlatformProtocol>
 
 @property (strong, nonatomic) UIWindow *window;
 

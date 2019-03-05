@@ -10,9 +10,16 @@
 
 @implementation TPAppDelegate
 
+- (NSArray<TPSharePlatformModel *> *)TPFetchPlatforms {
+    return @[TPPlatformModel(@"1106495990", @"0SpJKuKu6v7R0AEU", TPSharePlatformTypeQQ), TPPlatformModel(@"wxd20670e4d8927bbe", @"b697871f1545c3271e909ac580a8a765", TPSharePlatformTypeWechat)];
+}
+- (UIViewController *)sharedRootViewController {
+    return self.window.rootViewController;
+}
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [TPShareAPI TPSharePlatformDelegate:self];
     return YES;
 }
 

@@ -15,6 +15,7 @@
     model.shareUrl = _shareUrl;
     model.shareImage = _shareImage;
     model.shareContent = _shareContent;
+    model.modelChannel = self.modelChannel;
     model.contentType = self.contentType;
     return model;
 }
@@ -46,6 +47,14 @@
     return ^ (id image) {
         if (image && image != [NSNull null]) {
             self.shareImage = image;
+        }
+        return self;
+    };
+}
+- (TPShareBaseChain)channel {
+    return ^ (id channel) {
+        if ([channel respondsToSelector:@selector(integerValue)]) {
+            self.modelChannel = [channel integerValue];
         }
         return self;
     };

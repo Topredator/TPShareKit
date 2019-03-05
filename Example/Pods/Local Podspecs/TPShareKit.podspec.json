@@ -23,7 +23,21 @@
   "subspecs": [
     {
       "name": "Base",
-      "source_files": "TPShareKit/Classes/Base/**/*"
+      "source_files": "TPShareKit/Classes/Base/**/*",
+      "dependencies": {
+        "mob_sharesdk": [
+
+        ],
+        "mob_sharesdk/ShareSDKExtension": [
+
+        ],
+        "mob_sharesdk/ShareSDKPlatforms/QQ": [
+
+        ],
+        "mob_sharesdk/ShareSDKPlatforms/WeChat": [
+
+        ]
+      }
     },
     {
       "name": "ShareUI",
@@ -36,6 +50,12 @@
           "~> 1.1.0"
         ],
         "pop": [
+
+        ],
+        "TPUIKit/SimButton": [
+
+        ],
+        "TPUIKit/Toast": [
 
         ]
       },

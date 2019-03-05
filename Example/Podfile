@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'TPShareKit_Example' do
+  pod 'TPShareKit', :path => '../'
+
+  target 'TPShareKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

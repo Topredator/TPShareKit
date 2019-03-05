@@ -26,6 +26,7 @@ TPShareKit 是一个分享组件的库
 
   s.subspec 'ShareUI' do |ss|
     ss.source_files = 'TPShareKit/Classes/ShareUI/**/*'
+    ss.resources = 'TPShareKit/Assets/**/*'
     ss.dependency 'TPShareKit/Base'
     ss.dependency 'Masonry', '~> 1.1.0'
     ss.dependency 'pop'
